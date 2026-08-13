@@ -1,0 +1,421 @@
+{
+ "skin": "ds_ch0057",
+ "kind": "desire",
+ "character": "CH0057",
+ "store": "onestore",
+ "skel": "DS_CH0057.skel",
+ "atlas": "DS_CH0057.atlas",
+ "textures": [
+  "DS_CH0057.png"
+ ],
+ "animations": [
+  "10_basic/10_enter",
+  "10_basic/10_idle",
+  "10_basic/10_wait",
+  "10_reaction/10_A1",
+  "10_reaction/10_A2",
+  "10_reaction/10_A3",
+  "10_reaction/10_B1",
+  "10_reaction/10_H1",
+  "10_reaction/10_H2",
+  "10_reaction/10_H3",
+  "10_reaction/10_touch",
+  "30_overlay/30_T1",
+  "30_overlay/30_T2",
+  "30_overlay/30_T3",
+  "30_overlay/30_U1",
+  "30_overlay/30_U2",
+  "lobby/idle",
+  "lobby/wait"
+ ],
+ "animationGroups": {
+  "10_basic": [
+   "10_basic/10_enter",
+   "10_basic/10_idle",
+   "10_basic/10_wait"
+  ],
+  "10_reaction": [
+   "10_reaction/10_A1",
+   "10_reaction/10_A2",
+   "10_reaction/10_A3",
+   "10_reaction/10_B1",
+   "10_reaction/10_H1",
+   "10_reaction/10_H2",
+   "10_reaction/10_H3",
+   "10_reaction/10_touch"
+  ],
+  "30_overlay": [
+   "30_overlay/30_T1",
+   "30_overlay/30_T2",
+   "30_overlay/30_T3",
+   "30_overlay/30_U1",
+   "30_overlay/30_U2"
+  ],
+  "lobby": [
+   "lobby/idle",
+   "lobby/wait"
+  ]
+ },
+ "faceAnimations": [],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "2ec0c3fb189a7ee",
+ "bounds": {
+  "x": -1932.9515,
+  "y": -1206.9589,
+  "width": 3862.9636,
+  "height": 2414.9565
+ },
+ "slots": 147,
+ "bones": 211,
+ "events": [],
+ "attachments": [
+  "arm_lower_L",
+  "arm_lower_R",
+  "arm_upper_L",
+  "arm_upper_R",
+  "bd_A1",
+  "bd_A2",
+  "bd_A3",
+  "bd_B1",
+  "bd_H1",
+  "bg_button",
+  "bg_button_on",
+  "bg_button_on_2",
+  "bg_button_on_3",
+  "bg_button_pushed",
+  "bg_button_pushed_on",
+  "bg_chrshadow_multi",
+  "bg_horse_1",
+  "bg_horse_1_shadow_multi",
+  "bg_horse_1_shadow_multi_dup01",
+  "bikini_L_001",
+  "bikini_L_002",
+  "bikini_R_001",
+  "bikini_R_002",
+  "bikinistring_L",
+  "bikinistring_L_shadow",
+  "bikinistring_M",
+  "bikinistring_M_L_shadow",
+  "bikinistring_M_R_shadow",
+  "bikinistring_R",
+  "bikinistring_R_shadow",
+  "blush",
+  "breast_L_001",
+  "breast_L_002",
+  "breast_L_003",
+  "breast_L_highlight",
+  "breast_R_001",
+  "breast_R_002",
+  "breast_R_highlight",
+  "cuff_L_1",
+  "cuff_L_2",
+  "cuff_L_shadow",
+  "cuff_R_1",
+  "cuff_R_2",
+  "cuff_R_3",
+  "cuff_R_shadow",
+  "ear_R",
+  "effect_front_screen",
+  "embarrassed_eye_L",
+  "embarrassed_eye_R",
+  "eye_eyelash_L_001",
+  "eye_eyelash_L_002",
+  "eye_eyelash_L_light_001",
+  "eye_eyelash_L_light_002",
+  "eye_eyelash_L_light_003",
+  "eye_eyelash_R_001",
+  "eye_eyelash_R_002",
+  "eye_eyelash_R_light_001",
+  "eye_eyelash_R_light_002",
+  "eye_eyelash_R_light_003",
+  "eye_eyelash_closed_L",
+  "eye_eyelash_closed_R",
+  "eye_iris_L_001",
+  "eye_iris_L_002",
+  "eye_iris_R_001",
+  "eye_iris_R_002",
+  "eye_iris_fear_L",
+  "eye_iris_fear_R",
+  "eye_iris_highlights_L_001",
+  "eye_iris_highlights_R_001",
+  "eye_makeup_L_001",
+  "eye_makeup_R_001",
+  "eye_makeup_closed_L",
+  "eye_makeup_closed_R",
+  "eye_white_L",
+  "eye_white_R",
+  "eyebrow_L_001",
+  "eyebrow_R_001",
+  "eyebrow_anger_L",
+  "eyebrow_anger_R",
+  "eyebrow_rinkle",
+  "eyebrow_rinkle_anger_R",
+  "eyebrow_serious_L",
+  "eyebrow_serious_R",
+  "eyelid_L_1",
+  "eyelid_R_1",
+  "fear_sweat",
+  "hair_2",
+  "hair_L_1",
+  "hair_L_2",
+  "hair_L_2_001",
+  "hair_L_2_002",
+  "hair_L_2_004",
+  "hair_L_2_005",
+  "hair_L_2_006",
+  "hair_L_shadow",
+  "hair_M_L_1",
+  "hair_M_L_2",
+  "hair_M_L_2_001",
+  "hair_M_L_2_002",
+  "hair_M_L_3",
+  "hair_M_R_1",
+  "hair_M_R_2",
+  "hair_M_R_2_1",
+  "hair_M_R_3",
+  "hair_M_R_4",
+  "hair_R_1",
+  "hair_R_2",
+  "hair_R_3",
+  "hair_R_3_001",
+  "hair_R_3_001_1",
+  "hair_R_3_001_2",
+  "hair_R_3_003",
+  "hair_R_shadow",
+  "hair_back_001",
+  "hair_back_002",
+  "hair_back_003",
+  "hair_back_004",
+  "head",
+  "leg_lower_L_001",
+  "leg_lower_L_002",
+  "leg_upper_L",
+  "leg_upper_R",
+  "mouth",
+  "mouth_anger",
+  "mouth_anger_open",
+  "mouth_embarrassed",
+  "mouth_fear",
+  "mouth_serious",
+  "pelvis",
+  "pelvis_highlights_002",
+  "pelvis_highlights_003",
+  "pelvis_highlights_004",
+  "pelvis_highlights_005",
+  "pelvis_highlights_006",
+  "pelvis_highlights_007",
+  "pelvis_highlights_008",
+  "pelvis_highlights_009",
+  "pelvis_highlights_010",
+  "pelvis_highlights_012",
+  "pelvis_highlights_013",
+  "pelvis_highlights_014",
+  "pelvis_highlights_015",
+  "pelvis_highlights_016",
+  "pelvis_shadow_2",
+  "tear_001",
+  "tear_002",
+  "tear_003",
+  "torso",
+  "white"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "lobby/idle",
+  "boring": null,
+  "active": "10_reaction/10_touch",
+  "faceBone": null,
+  "mouthBone": null,
+  "heightType": null,
+  "actorType": 1,
+  "pivot": null,
+  "phases": [
+   {
+    "idle": "lobby/idle",
+    "boring": null,
+    "active": "10_reaction/10_touch"
+   }
+  ],
+  "volumeProfiles": []
+ },
+ "sequences": [
+  {
+   "animation": "10_basic/10_enter",
+   "cues": [
+    {
+     "time": 0.0,
+     "events": [
+      {
+       "type": "SpawnFxEvent",
+       "bone": "root",
+       "offset": {
+        "x": 0.0,
+        "y": 0.0
+       },
+       "prefab": {
+        "guid": "6a753ccba9114664eb2589828a312c82",
+        "subObject": null,
+        "subObjectType": null
+       },
+       "ignoreTimeScale": false,
+       "followRotate": false,
+       "followScale": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "touch": {
+  "boxes": [
+   "bd_A1",
+   "bd_A2",
+   "bd_A3",
+   "bd_B1",
+   "bd_H1"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "bd_A1",
+    "code": "A1",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A2",
+    "code": "A2",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A3",
+    "code": "A3",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_B1",
+    "code": "B1",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_H1",
+    "code": "H1",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 100.0,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -1448471105419328718
+    },
+    "samples": [
+     {
+      "aspect": 1.0,
+      "position": {
+       "x": -130.6300048828125,
+       "y": -49.95000076293945
+      },
+      "rotation": 0.0,
+      "scale": 0.6700000166893005
+     },
+     {
+      "aspect": 1.7781155109405518,
+      "position": {
+       "x": -125.0,
+       "y": -16.635541915893555
+      },
+      "rotation": 0.0,
+      "scale": 0.8667824864387512
+     },
+     {
+      "aspect": 2.1666667461395264,
+      "position": {
+       "x": -41.630001068115234,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     },
+     {
+      "aspect": 2.777777671813965,
+      "position": {
+       "x": -27.68000030517578,
+       "y": -10.0
+      },
+      "rotation": -6.0,
+      "scale": 1.0
+     }
+    ]
+   }
+  ],
+  "camera": {
+   "verticalFov": 60.0,
+   "nearClip": 0.009999999776482582,
+   "farClip": 100000.0
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureCutsceneSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "overlay": {
+     "texture": "postprocess_overlay_Silhouette.png",
+     "source": "Silhouette"
+    },
+    "background": {
+     "texture": "postprocess_background_Box_White.png",
+     "source": "Box_White"
+    }
+   }
+  ],
+  "bg": {
+   "name": "DS_CH0057_bg",
+   "tex": "DS_CH0057_bg.png",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 48.032,
+   "h": 30.02
+  },
+  "backgrounds": [
+   {
+    "name": "DS_CH0057_bg",
+    "tex": "DS_CH0057_bg.png",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 48.032,
+    "h": 30.02
+   }
+  ]
+ }
+}

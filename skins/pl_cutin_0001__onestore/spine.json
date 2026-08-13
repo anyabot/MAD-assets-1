@@ -1,0 +1,367 @@
+{
+ "skin": "pl_cutin_0001",
+ "kind": "pleasure",
+ "character": "cutin_0001",
+ "store": "onestore",
+ "skel": "PL_cutin_0001.skel",
+ "atlas": "PL_cutin_0001.atlas",
+ "textures": [
+  "PL_cutin_0001.png"
+ ],
+ "animations": [
+  "flash",
+  "title"
+ ],
+ "animationGroups": {
+  "": [
+   "flash",
+   "title"
+  ]
+ },
+ "faceAnimations": [],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "1ff4ffae-394f048",
+ "bounds": {
+  "x": -5735.207,
+  "y": -4047.928,
+  "width": 11461.707,
+  "height": 7348.9277
+ },
+ "slots": 145,
+ "bones": 236,
+ "events": [],
+ "attachments": [
+  "bd_Freya_breast",
+  "bd_Freya_hip",
+  "bd_Lumina_breast_L",
+  "bd_Lumina_breast_R",
+  "bd_Lumina_pelvis",
+  "bd_flash",
+  "f_arm_lower_L",
+  "f_arm_lower_R",
+  "f_arm_shadow",
+  "f_arm_upper_L",
+  "f_arm_upper_R",
+  "f_blushing",
+  "f_body",
+  "f_breast_L_UNCEN",
+  "f_breast_L_back",
+  "f_breast_R_UNCEN",
+  "f_eye_L",
+  "f_eye_L_cover",
+  "f_eye_R",
+  "f_eye_R_cover",
+  "f_eye_closed_L",
+  "f_eye_closed_L_cover",
+  "f_eye_closed_R",
+  "f_eye_closed_R_cover",
+  "f_eye_crystalline_L",
+  "f_eye_crystalline_R",
+  "f_eyeball_L",
+  "f_eyeball_R",
+  "f_eyebrow_L",
+  "f_eyebrow_L_cover",
+  "f_eyebrow_R",
+  "f_eyebrow_R_cover",
+  "f_face",
+  "f_finger_L_1",
+  "f_finger_L_2",
+  "f_finger_L_3",
+  "f_finger_L_4",
+  "f_hair_L",
+  "f_hair_R",
+  "f_hair_acce_L",
+  "f_hair_acce_R",
+  "f_hair_back",
+  "f_hair_back_L",
+  "f_hair_front",
+  "f_hair_front2",
+  "f_hair_front3",
+  "f_hair_front_L",
+  "f_hair_front_R",
+  "f_hair_front_inside_L",
+  "f_hair_front_inside_R",
+  "f_hair_side_L",
+  "f_hair_side_R",
+  "f_hair_tail_L",
+  "f_hair_tail_R",
+  "f_hand_L",
+  "f_hand_R",
+  "f_hitomi_highlight_L",
+  "f_hitomi_highlight_R",
+  "f_leg_L",
+  "f_leg_R",
+  "f_mouth_1",
+  "f_mouth_2",
+  "f_neck",
+  "f_nipple_L_UNCEN",
+  "f_nose",
+  "f_pants",
+  "f_pants_shadow_1",
+  "f_pants_shadow_2",
+  "glow",
+  "l_areupper_shadow",
+  "l_arm_lower_L",
+  "l_arm_lower_R",
+  "l_arm_upper_L",
+  "l_arm_upper_R",
+  "l_body",
+  "l_breast_L_shadow",
+  "l_breast_R_shadow",
+  "l_chest_L_UNCEN",
+  "l_chest_R_UNCEN",
+  "l_ear_L",
+  "l_ear_R",
+  "l_eye_L",
+  "l_eye_L_cover",
+  "l_eye_R",
+  "l_eye_R_cover",
+  "l_eye_closed_L",
+  "l_eye_closed_L_cover",
+  "l_eye_closed_R",
+  "l_eye_closed_R_cover",
+  "l_eye_crystalline_L",
+  "l_eye_crystalline_R",
+  "l_eyeball_L",
+  "l_eyeball_R",
+  "l_eyebrow_L",
+  "l_eyebrow_R",
+  "l_face",
+  "l_face_shadow",
+  "l_finger",
+  "l_flushing",
+  "l_hair_L",
+  "l_hair_R",
+  "l_hair_back",
+  "l_hair_front_L_1",
+  "l_hair_front_L_2",
+  "l_hair_front_L_3",
+  "l_hair_front_R_1",
+  "l_hair_front_R_2",
+  "l_hair_front_R_3",
+  "l_hair_side",
+  "l_hair_side2",
+  "l_hand_L",
+  "l_hand_R",
+  "l_hanger",
+  "l_hanger_shadow_lower",
+  "l_hanger_shadow_upper",
+  "l_hanger_string",
+  "l_hanger_string2",
+  "l_hanger_string3",
+  "l_hanger_string4",
+  "l_headgear_L_1",
+  "l_headgear_L_2",
+  "l_headgear_R_1",
+  "l_headgear_R_2",
+  "l_headgear_back_L_1",
+  "l_headgear_back_L_2",
+  "l_headgear_back_R_1",
+  "l_headgear_back_R_2",
+  "l_leg_L",
+  "l_leg_R",
+  "l_leg_R_cover",
+  "l_mouth_1",
+  "l_mouth_2",
+  "l_neck",
+  "l_nose",
+  "t_arm",
+  "t_body",
+  "t_eye_L",
+  "t_eye_L_cover",
+  "t_eye_R",
+  "t_eye_R_cover",
+  "t_eye_closed_L",
+  "t_eye_closed_L_cover",
+  "t_eye_closed_R",
+  "t_eye_closed_R_cover",
+  "t_hair_back",
+  "t_hair_front"
+ ],
+ "censorship": {
+  "uncensored": [
+   "f_breast_L_UNCEN",
+   "f_breast_R_UNCEN",
+   "f_nipple_L_UNCEN",
+   "l_chest_L_UNCEN",
+   "l_chest_R_UNCEN"
+  ],
+  "censored": []
+ },
+ "actor": {
+  "idle": "title",
+  "boring": null,
+  "active": "title",
+  "faceBone": null,
+  "mouthBone": null,
+  "heightType": null,
+  "actorType": 3,
+  "pivot": null,
+  "phases": [
+   {
+    "idle": "title",
+    "boring": null,
+    "active": "title"
+   }
+  ],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [
+   "bd_Freya_breast",
+   "bd_Freya_hip",
+   "bd_Lumina_breast_L",
+   "bd_Lumina_breast_R",
+   "bd_Lumina_pelvis",
+   "bd_flash"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "bd_Freya_breast",
+    "code": "Freya_breast",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Freya_hip",
+    "code": "Freya_hip",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Lumina_breast_L",
+    "code": "Lumina_breast",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Lumina_breast_R",
+    "code": "Lumina_breast",
+    "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Lumina_pelvis",
+    "code": "Lumina_pelvis",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_flash",
+    "code": "flash",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 100.0,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -1448471105419328718
+    },
+    "samples": [
+     {
+      "aspect": 1.0,
+      "position": {
+       "x": -241.75,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 0.6000000238418579
+     },
+     {
+      "aspect": 1.7781155109405518,
+      "position": {
+       "x": 33.4900016784668,
+       "y": 57.70000076293945
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     },
+     {
+      "aspect": 2.1666667461395264,
+      "position": {
+       "x": 0.0,
+       "y": 64.0999984741211
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     },
+     {
+      "aspect": 2.780197858810425,
+      "position": {
+       "x": 0.0,
+       "y": 22.382537841796875
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     }
+    ]
+   }
+  ],
+  "camera": {
+   "verticalFov": 60.0,
+   "nearClip": 0.009999999776482582,
+   "farClip": 100000.0
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureCutsceneSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "overlay": {
+     "texture": "postprocess_overlay_Silhouette.png",
+     "source": "Silhouette"
+    },
+    "background": {
+     "texture": "postprocess_background_Box_White.png",
+     "source": "Box_White"
+    }
+   }
+  ],
+  "bg": {
+   "name": "PL_cutin_0001_BG",
+   "tex": "PL_cutin_0001_BG.png",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 114.54946,
+   "h": 64.49
+  },
+  "backgrounds": [
+   {
+    "name": "PL_cutin_0001_BG",
+    "tex": "PL_cutin_0001_BG.png",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 114.54946,
+    "h": 64.49
+   }
+  ]
+ }
+}

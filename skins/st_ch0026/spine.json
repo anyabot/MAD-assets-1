@@ -1,0 +1,361 @@
+{
+ "skin": "st_ch0026",
+ "kind": "standing",
+ "character": "CH0026",
+ "store": "onestore",
+ "skel": "ST_CH0026.skel",
+ "atlas": "ST_CH0026.atlas",
+ "textures": [
+  "ST_CH0026.png"
+ ],
+ "animations": [
+  "00_active",
+  "00_idle_boring",
+  "00_idle_normal",
+  "01_anger",
+  "01_closeeye",
+  "01_embarrassed",
+  "01_fear",
+  "01_happy",
+  "01_question",
+  "01_sad",
+  "01_serious",
+  "01_shy",
+  "01_smile",
+  "01_surprised",
+  "01_unique02"
+ ],
+ "animationGroups": {
+  "00": [
+   "00_active",
+   "00_idle_boring",
+   "00_idle_normal"
+  ],
+  "01": [
+   "01_anger",
+   "01_closeeye",
+   "01_embarrassed",
+   "01_fear",
+   "01_happy",
+   "01_question",
+   "01_sad",
+   "01_serious",
+   "01_shy",
+   "01_smile",
+   "01_surprised",
+   "01_unique02"
+  ]
+ },
+ "faceAnimations": [
+  "01_anger",
+  "01_closeeye",
+  "01_embarrassed",
+  "01_fear",
+  "01_happy",
+  "01_question",
+  "01_sad",
+  "01_serious",
+  "01_shy",
+  "01_smile",
+  "01_surprised",
+  "01_unique02"
+ ],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "-49d77296f0106c1",
+ "bounds": {
+  "x": -1291.7755,
+  "y": -92.9556,
+  "width": 2136.2922,
+  "height": 4742.3862
+ },
+ "slots": 143,
+ "bones": 148,
+ "events": [],
+ "attachments": [
+  "arm_L_hand_back",
+  "arm_L_hand_finger_1",
+  "arm_L_hand_finger_2",
+  "arm_L_hand_finger_3",
+  "arm_L_hand_finger_4",
+  "arm_L_hand_finger_5",
+  "arm_L_hand_pen",
+  "arm_L_lower",
+  "arm_L_lower2",
+  "arm_L_upper",
+  "arm_L_upper_back",
+  "arm_R_board",
+  "arm_R_board2",
+  "arm_R_board3",
+  "arm_R_epaulet",
+  "arm_R_epaulet_down",
+  "arm_R_hand_back",
+  "arm_R_hand_finger_1",
+  "arm_R_hand_finger_2",
+  "arm_R_hand_finger_3",
+  "arm_R_hand_finger_4",
+  "arm_R_hand_shadow",
+  "arm_R_upper",
+  "arm_R_upper2",
+  "arm_R_upper2_noshade",
+  "arm_R_upper_back",
+  "arm_lower_active",
+  "arm_lower_active_2",
+  "bd_body_lower_leg_L",
+  "bd_body_lower_leg_R",
+  "bd_body_lower_pelvis",
+  "bd_body_upper_arm_L",
+  "bd_body_upper_arm_R",
+  "bd_body_upper_breast",
+  "bd_body_upper_head",
+  "bd_body_upper_torso",
+  "blush",
+  "blush_shy",
+  "body",
+  "body_back",
+  "cape_L",
+  "cape_R_chest",
+  "cape_back",
+  "cape_back_R",
+  "cape_front_R",
+  "cape_strap",
+  "eye_L",
+  "eye_L4",
+  "eye_L5",
+  "eye_L_front_lower",
+  "eye_L_front_lower4",
+  "eye_L_front_lower5",
+  "eye_L_front_upper",
+  "eye_L_front_upper2",
+  "eye_L_front_upper3",
+  "eye_L_front_upper4",
+  "eye_L_front_upper_sad",
+  "eye_R",
+  "eye_R4",
+  "eye_R5",
+  "eye_R_front_lower",
+  "eye_R_front_lower4",
+  "eye_R_front_lower5",
+  "eye_R_front_upper",
+  "eye_R_front_upper2",
+  "eye_R_front_upper3",
+  "eye_R_front_upper4",
+  "eye_R_front_upper_sad",
+  "eye_R_highlight_L1",
+  "eye_R_highlight_L2",
+  "eye_R_highlight_R1",
+  "eye_R_highlight_R2",
+  "eye_back_L",
+  "eye_back_R",
+  "eye_close_normal_L",
+  "eye_close_normal_R",
+  "eye_smile_L",
+  "eye_smile_R",
+  "eyebrow_L",
+  "eyebrow_L_sad",
+  "eyebrow_R",
+  "eyebrow_R_sad",
+  "eyebrow_anger_L",
+  "eyebrow_anger_R",
+  "eyebrow_sad_L",
+  "eyebrow_sad_R",
+  "face",
+  "face_ear_L",
+  "face_ear_R",
+  "face_eyehole",
+  "face_symbol_anger",
+  "face_symbol_fear1",
+  "face_symbol_fear2",
+  "hair_L",
+  "hair_R",
+  "hair_RB",
+  "hair_back",
+  "hair_front_L1",
+  "hair_front_L2",
+  "hair_front_M",
+  "hand_R_active",
+  "hand_R_grab",
+  "head",
+  "head_nurse_cap",
+  "leg_L",
+  "leg_R",
+  "moith_anger",
+  "mouth_embarrassed",
+  "mouth_embarrassed2",
+  "mouth_laugh",
+  "mouth_laugh2",
+  "mouth_laugh3",
+  "mouth_laugh4",
+  "mouth_normal",
+  "mouth_question",
+  "mouth_sad",
+  "mouth_shout",
+  "mouth_shout2",
+  "mouth_shout3",
+  "mouth_surprised",
+  "neck",
+  "nose",
+  "oppai",
+  "pelvis",
+  "skirt_F",
+  "tear_L",
+  "tear_R"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "00_idle_normal",
+  "boring": "00_idle_boring",
+  "active": "00_active",
+  "faceBone": "face",
+  "mouthBone": "mouth",
+  "heightType": 1,
+  "actorType": 0,
+  "pivot": {
+   "x": 0.4685441851615906,
+   "y": 41.121177673339844
+  },
+  "phases": [],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [
+   "bd_body_lower_leg_L",
+   "bd_body_lower_leg_R",
+   "bd_body_lower_pelvis",
+   "bd_body_upper_arm_L",
+   "bd_body_upper_arm_R",
+   "bd_body_upper_breast",
+   "bd_body_upper_head",
+   "bd_body_upper_torso"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "bd_body_lower_leg_L",
+    "code": "body_lower_leg",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_body_lower_leg_R",
+    "code": "body_lower_leg",
+    "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_body_lower_pelvis",
+    "code": "body_lower_pelvis",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_body_upper_arm_L",
+    "code": "body_upper_arm",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_body_upper_arm_R",
+    "code": "body_upper_arm",
+    "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_body_upper_breast",
+    "code": "body_upper_breast",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_body_upper_head",
+    "code": "body_upper_head",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_body_upper_torso",
+    "code": "body_upper_torso",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 35.88999938964844,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -5655118642722884995
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": 2658046404174398979
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -6045381518747844681
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": 7012676955179412702
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -2924366971628282093
+    },
+    "samples": []
+   }
+  ],
+  "camera": {
+   "verticalFov": null,
+   "nearClip": null,
+   "farClip": null
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureStandingSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 1.0
+    }
+   }
+  ]
+ }
+}

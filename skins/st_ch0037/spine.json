@@ -1,0 +1,362 @@
+{
+ "skin": "st_ch0037",
+ "kind": "standing",
+ "character": "CH0037",
+ "store": "onestore",
+ "skel": "ST_CH0037.skel",
+ "atlas": "ST_CH0037.atlas",
+ "textures": [
+  "ST_CH0037.png"
+ ],
+ "animations": [
+  "00_active",
+  "00_idle_boring",
+  "00_idle_normal",
+  "01_anger",
+  "01_closeeye",
+  "01_embarrassed",
+  "01_fear",
+  "01_happy",
+  "01_question",
+  "01_sad",
+  "01_serious",
+  "01_shy",
+  "01_smile",
+  "01_surprised"
+ ],
+ "animationGroups": {
+  "00": [
+   "00_active",
+   "00_idle_boring",
+   "00_idle_normal"
+  ],
+  "01": [
+   "01_anger",
+   "01_closeeye",
+   "01_embarrassed",
+   "01_fear",
+   "01_happy",
+   "01_question",
+   "01_sad",
+   "01_serious",
+   "01_shy",
+   "01_smile",
+   "01_surprised"
+  ]
+ },
+ "faceAnimations": [
+  "01_anger",
+  "01_closeeye",
+  "01_embarrassed",
+  "01_fear",
+  "01_happy",
+  "01_question",
+  "01_sad",
+  "01_serious",
+  "01_shy",
+  "01_smile",
+  "01_surprised"
+ ],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "-44e397f928553f80",
+ "bounds": {
+  "x": -1742.9122,
+  "y": -268.4475,
+  "width": 2685.2129,
+  "height": 5439.4829
+ },
+ "slots": 137,
+ "bones": 186,
+ "events": [],
+ "attachments": [
+  "arm_lower_L_1",
+  "arm_lower_L_2",
+  "arm_lower_R_1",
+  "arm_lower_R_2",
+  "arm_upper_L",
+  "arm_upper_R_1",
+  "arm_upper_R_2",
+  "bd_arm_L",
+  "bd_arm_R",
+  "bd_body",
+  "bd_face",
+  "bd_leg_L",
+  "bd_leg_R",
+  "bd_torso",
+  "belt_acc_L",
+  "belt_acc_R",
+  "blush",
+  "blush_happy",
+  "blush_shy",
+  "bottle_1",
+  "bottle_2",
+  "bottle_head",
+  "bottle_light",
+  "breast_L",
+  "breast_R",
+  "bubble",
+  "ear_L_1",
+  "ear_L_2",
+  "ear_L_3",
+  "ear_R_1",
+  "ear_R_2",
+  "ear_R_3",
+  "eyebrow_L",
+  "eyebrow_R",
+  "eyebrow_anger_L",
+  "eyebrow_anger_R",
+  "eyebrow_embarrassed_L",
+  "eyebrow_embarrassed_R",
+  "eyebrow_fear_L",
+  "eyebrow_fear_R",
+  "eyebrow_question_L",
+  "eyebrow_question_R",
+  "eyebrow_shy_L",
+  "eyebrow_shy_R",
+  "eyelid_L",
+  "eyelid_R",
+  "eyes_L",
+  "eyes_R",
+  "eyes_closed_L",
+  "eyes_closed_L_eyelid",
+  "eyes_closed_L_eyelid_1",
+  "eyes_closed_L_makeup",
+  "eyes_closed_R",
+  "eyes_closed_R_eyelid",
+  "eyes_closed_R_eyelid_1",
+  "eyes_closed_R_makeup",
+  "eyes_fear_embarrassed_L",
+  "eyes_fear_embarrassed_R",
+  "eyes_happy_L",
+  "eyes_happy_L_eyelid",
+  "eyes_happy_L_makeup",
+  "eyes_happy_R",
+  "eyes_happy_R_eyelid",
+  "eyes_happy_R_makeup",
+  "eyes_iris_L",
+  "eyes_iris_L_highlights",
+  "eyes_iris_R",
+  "eyes_iris_R_highlights",
+  "eyes_iris_embarrassed_L",
+  "eyes_iris_embarrassed_R",
+  "eyes_iris_surprised",
+  "eyes_makeup_L",
+  "eyes_makeup_R",
+  "eyes_sclera_L",
+  "eyes_sclera_R",
+  "guitar_1",
+  "guitar_2",
+  "guitar_string_1",
+  "guitar_string_2",
+  "guitar_string_3",
+  "hair",
+  "hair_L_1",
+  "hair_L_2",
+  "hair_L_2_1",
+  "hair_L_2_3",
+  "hair_L_3",
+  "hair_L_4",
+  "hair_M",
+  "hair_R_1",
+  "hair_R_2",
+  "hair_R_3",
+  "hair_R_3_1",
+  "hair_R_4",
+  "hair_back_L",
+  "hair_back_M",
+  "hair_mL",
+  "hair_mR",
+  "hand_L_1",
+  "hand_L_2",
+  "hand_R",
+  "head",
+  "jacket_back_1",
+  "jacket_back_2",
+  "jacket_back_3",
+  "jacket_back_3_1",
+  "jacket_back_3_2",
+  "jacket_front_1",
+  "jacket_front_4",
+  "leg_lower_L",
+  "leg_lower_R",
+  "leg_upper_L",
+  "leg_upper_R",
+  "mouth",
+  "mouth_anger",
+  "mouth_anger_fear",
+  "mouth_embarrassed",
+  "mouth_happy",
+  "mouth_question",
+  "mouth_sad",
+  "mouth_serious",
+  "mouth_shy",
+  "mouth_smile",
+  "mouth_surprised",
+  "neck",
+  "pants_L1",
+  "shirt_back",
+  "shirt_front_L",
+  "shirt_front_M",
+  "shirt_front_R",
+  "sweat_fear_L",
+  "sweat_shy",
+  "tail",
+  "tail_1",
+  "tear_L",
+  "tear_R",
+  "tear_R2",
+  "torso",
+  "water_B",
+  "water_F"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "00_idle_normal",
+  "boring": "00_idle_boring",
+  "active": "00_active",
+  "faceBone": "face",
+  "mouthBone": "mouth",
+  "heightType": 1,
+  "actorType": 0,
+  "pivot": {
+   "x": 0.5572405457496643,
+   "y": 41.05967330932617
+  },
+  "phases": [],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [
+   "bd_arm_L",
+   "bd_arm_R",
+   "bd_body",
+   "bd_face",
+   "bd_leg_L",
+   "bd_leg_R",
+   "bd_torso"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "bd_arm_L",
+    "code": "arm",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_arm_R",
+    "code": "arm",
+    "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_body",
+    "code": "body",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_face",
+    "code": "face",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_leg_L",
+    "code": "leg",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_leg_R",
+    "code": "leg",
+    "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_torso",
+    "code": "torso",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 34.779998779296875,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": 2658046404174398979
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -5655118642722884995
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": 7012676955179412702
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -6045381518747844681
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -2924366971628282093
+    },
+    "samples": []
+   }
+  ],
+  "camera": {
+   "verticalFov": null,
+   "nearClip": null,
+   "farClip": null
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureStandingSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 1.0
+    }
+   }
+  ]
+ }
+}

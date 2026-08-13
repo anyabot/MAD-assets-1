@@ -1,0 +1,193 @@
+{
+ "skin": "st_np0306",
+ "kind": "standing",
+ "character": "NP0306",
+ "store": "onestore",
+ "skel": "ST_NP0306.skel",
+ "atlas": "ST_NP0306.atlas",
+ "textures": [
+  "ST_NP0306.png"
+ ],
+ "animations": [
+  "00_idle_normal",
+  "01_anger",
+  "01_happy",
+  "01_sad",
+  "01_smile"
+ ],
+ "animationGroups": {
+  "00": [
+   "00_idle_normal"
+  ],
+  "01": [
+   "01_anger",
+   "01_happy",
+   "01_sad",
+   "01_smile"
+  ]
+ },
+ "faceAnimations": [
+  "01_anger",
+  "01_happy",
+  "01_sad",
+  "01_smile"
+ ],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "4baaddf1919e243",
+ "bounds": {
+  "x": -1314.9202,
+  "y": -611.7277,
+  "width": 2872.0002,
+  "height": 7974.8984
+ },
+ "slots": 68,
+ "bones": 132,
+ "events": [],
+ "attachments": [
+  "bunny_reborn_L",
+  "bunny_reborn_R",
+  "bunny_reborn_middle",
+  "card2",
+  "card_shadow",
+  "ear_L",
+  "ear_R",
+  "face",
+  "finger_1_L",
+  "finger_2_L",
+  "finger_2_L_front",
+  "finger_3_L",
+  "finger_3_L_front",
+  "finger_4_L",
+  "finger_4_L_front",
+  "finger_tumb",
+  "front_hair_brunch_long",
+  "front_hair_brunch_short",
+  "hair_front",
+  "hair_shadow",
+  "hand_L",
+  "hand_L_shadow",
+  "hand_R",
+  "hand_R four_finger",
+  "hand_R_five_finger",
+  "hand_R_middle_finger",
+  "hand_R_second finger",
+  "heart",
+  "kara_ behind",
+  "kara_L",
+  "kara_R",
+  "lower_arm_L",
+  "lower_arm_R",
+  "lower_arm_clothes_behind_L",
+  "lower_arm_clothes_behind_R",
+  "lower_arm_clothes_front_L",
+  "lower_arm_clothes_front_R",
+  "lower_leg_L",
+  "lower_leg_R",
+  "mouse_angry",
+  "mouse_basic",
+  "mouse_happy",
+  "mouse_sad",
+  "mouse_smile",
+  "neck",
+  "neck_shirts",
+  "nose",
+  "oppai_L",
+  "oppai_R",
+  "ribborn",
+  "side tale_2",
+  "side_hair_L_behind",
+  "side_hair_L_front_1",
+  "side_hair_L_front_2",
+  "side_hair_R_front_1",
+  "side_hair_R_front_2",
+  "side_hair_R_front_3",
+  "side_hair_behind",
+  "side_tale",
+  "side_tale_1",
+  "side_tale_3",
+  "side_tale_4",
+  "torso",
+  "upper_arm_L",
+  "upper_arm_R",
+  "upper_leg_L",
+  "upper_leg_R"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "00_idle_normal",
+  "boring": "00_idle_boring",
+  "active": null,
+  "faceBone": "face",
+  "mouthBone": "mouth",
+  "heightType": 1,
+  "actorType": 0,
+  "pivot": {
+   "x": -1.054343819618225,
+   "y": 60.43975830078125
+  },
+  "phases": [],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [],
+  "jigglers": [],
+  "regions": [],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 24.149999618530273,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -5655118642722884995
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": 2658046404174398979
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": 7012676955179412702
+    },
+    "samples": []
+   }
+  ],
+  "camera": {
+   "verticalFov": null,
+   "nearClip": null,
+   "farClip": null
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureStandingSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 1.0
+    }
+   }
+  ]
+ }
+}

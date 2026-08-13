@@ -1,0 +1,474 @@
+{
+ "skin": "ds_ch0024",
+ "kind": "desire",
+ "character": "CH0024",
+ "store": "onestore",
+ "skel": "DS_Alone.skel",
+ "atlas": "DS_Alone.atlas",
+ "textures": [
+  "DS_Alone.png"
+ ],
+ "animations": [
+  "10_basic/10_enter",
+  "10_basic/10_idle",
+  "10_basic/10_idle_slime",
+  "10_basic/10_wait",
+  "10_reaction/10_A1",
+  "10_reaction/10_A2",
+  "10_reaction/10_A3",
+  "10_reaction/10_A4",
+  "10_reaction/10_C1",
+  "10_reaction/10_T1",
+  "10_reaction/10_T2",
+  "10_reaction/10_T3",
+  "10_reaction/10_T4",
+  "10_reaction/10_T5",
+  "30_overlay/30_twinkle",
+  "lobby/idle",
+  "lobby/touch"
+ ],
+ "animationGroups": {
+  "10_basic": [
+   "10_basic/10_enter",
+   "10_basic/10_idle",
+   "10_basic/10_idle_slime",
+   "10_basic/10_wait"
+  ],
+  "10_reaction": [
+   "10_reaction/10_A1",
+   "10_reaction/10_A2",
+   "10_reaction/10_A3",
+   "10_reaction/10_A4",
+   "10_reaction/10_C1",
+   "10_reaction/10_T1",
+   "10_reaction/10_T2",
+   "10_reaction/10_T3",
+   "10_reaction/10_T4",
+   "10_reaction/10_T5"
+  ],
+  "30_overlay": [
+   "30_overlay/30_twinkle"
+  ],
+  "lobby": [
+   "lobby/idle",
+   "lobby/touch"
+  ]
+ },
+ "faceAnimations": [],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "70fff490-20182524",
+ "bounds": {
+  "x": -5000,
+  "y": -4000,
+  "width": 10000,
+  "height": 8000
+ },
+ "slots": 201,
+ "bones": 266,
+ "events": [],
+ "attachments": [
+  "Obj_Plushslime_1",
+  "Obj_Plushslime_2",
+  "Obj_Plushslime_3",
+  "Obj_Plushslime_3_shadow",
+  "Obj_Plushslime_4",
+  "Obj_Plushslime_4_shadow",
+  "Obj_card_1",
+  "Obj_card_10",
+  "Obj_card_11",
+  "Obj_card_12",
+  "Obj_card_2",
+  "Obj_card_3",
+  "Obj_card_4",
+  "Obj_card_5",
+  "Obj_card_6",
+  "Obj_card_7",
+  "Obj_card_8",
+  "Obj_card_9",
+  "Obj_card_back_1",
+  "Obj_card_back_2",
+  "Obj_card_back_3",
+  "Obj_cards_deck",
+  "Obj_slime",
+  "Obj_slime_ear",
+  "Obj_slime_eyes_1",
+  "Obj_slime_eyes_2",
+  "Obj_slime_eyes_3",
+  "Obj_slime_eyes_4",
+  "Obj_slime_shadow",
+  "Obj_token_black_1",
+  "Obj_token_black_2",
+  "Obj_token_black_3",
+  "Obj_token_black_4",
+  "Obj_token_black_5",
+  "Obj_token_blue_1",
+  "Obj_token_blue_2",
+  "Obj_token_blue_3",
+  "Obj_token_blue_4",
+  "Obj_token_blue_5",
+  "Obj_token_red_1",
+  "Obj_token_red_2",
+  "Obj_token_red_3",
+  "Obj_token_red_4",
+  "Obj_token_red_5",
+  "Obj_token_red_6",
+  "Obj_token_yellow_1",
+  "Obj_token_yellow_1_2",
+  "Whitetoken_1",
+  "Yellowtoken_1",
+  "Yellowtoken_3",
+  "arm_lower_L",
+  "arm_lower_L_split_1",
+  "arm_lower_L_split_2",
+  "arm_lower_R",
+  "arm_upper_L",
+  "arm_upper_R",
+  "arm_upper_R_skinfold",
+  "bd_A1",
+  "bd_A2",
+  "bd_A3",
+  "bd_C1",
+  "bd_T1",
+  "bd_T2",
+  "bd_T3",
+  "bd_T4",
+  "bd_T5",
+  "bg_card_deck_shadow_01",
+  "bg_card_deck_shadow_02",
+  "bg_card_deck_shadow_03",
+  "bg_card_shadow",
+  "bg_token_shadow",
+  "breast_L_UNCEN",
+  "breast_R_UNCEN",
+  "breast_ribbon_bottom_L",
+  "breast_ribbon_bottom_R",
+  "breast_ribbon_top",
+  "ear_L",
+  "ear_R",
+  "ear_R2",
+  "eye_close_L",
+  "eye_close_R",
+  "eye_smile_L",
+  "eye_smile_R",
+  "eyebrow_1_L",
+  "eyebrow_1_R",
+  "eyebrow_2_L",
+  "eyebrow_2_R",
+  "eyelashes_1_1_L",
+  "eyelashes_1_1_R",
+  "eyelashes_1_2_L",
+  "eyelashes_1_2_R",
+  "eyelashes_shadow_1_L",
+  "eyelashes_shadow_1_R",
+  "face",
+  "face_blush",
+  "face_shadow",
+  "face_shadow2",
+  "fx_card_01",
+  "fx_card_02",
+  "fx_card_03",
+  "fx_card_04",
+  "fx_card_05",
+  "fx_card_06",
+  "fx_card_07",
+  "fx_card_08",
+  "fx_token_blue",
+  "fx_token_red",
+  "fx_token_yellow",
+  "hair_L",
+  "hair_L_back",
+  "hair_M",
+  "hair_ML_1",
+  "hair_ML_2",
+  "hair_MR",
+  "hair_R",
+  "hair_R_back",
+  "hair_band",
+  "hair_tie",
+  "hand_L",
+  "hand_L_original_backup",
+  "hand_R",
+  "hand_R_original_backup",
+  "horn_L",
+  "horn_R",
+  "horn_shadow_L",
+  "leg_lower_L",
+  "leg_lower_R",
+  "leg_upper_L",
+  "leg_upper_L2",
+  "leg_upper_L_light",
+  "leg_upper_R",
+  "leg_upper_shadow_R",
+  "mouth_1",
+  "mouth_2",
+  "mouth_3",
+  "mouth_4",
+  "neck",
+  "negligee_back_L",
+  "negligee_back_R",
+  "negligee_band_L",
+  "negligee_band_L_back",
+  "negligee_band_R",
+  "negligee_breast_UNCEN",
+  "negligee_breast_shadow",
+  "negligee_front_UNCEN",
+  "nose_lighting",
+  "panty_ribbon",
+  "pelvis",
+  "pelvis_arm_shadow_R",
+  "pupil_1_L",
+  "pupil_1_R",
+  "pupil_2_L",
+  "pupil_2_R",
+  "shadow_alone",
+  "tail_1_back",
+  "tail_1_front",
+  "tail_2",
+  "tail_2_flip",
+  "tail_shadow",
+  "torso",
+  "torso_arm_shadow",
+  "twinkle",
+  "twintail_L_split",
+  "twintail_R",
+  "whiteOut",
+  "whiteoftheeye_1_L",
+  "whiteoftheeye_1_R"
+ ],
+ "censorship": {
+  "uncensored": [
+   "breast_L_UNCEN",
+   "breast_R_UNCEN",
+   "negligee_breast_UNCEN",
+   "negligee_front_UNCEN"
+  ],
+  "censored": []
+ },
+ "actor": {
+  "idle": "lobby/idle",
+  "boring": null,
+  "active": "lobby/touch",
+  "faceBone": null,
+  "mouthBone": null,
+  "heightType": null,
+  "actorType": 1,
+  "pivot": null,
+  "phases": [
+   {
+    "idle": "lobby/idle",
+    "boring": null,
+    "active": "lobby/touch"
+   }
+  ],
+  "volumeProfiles": []
+ },
+ "sequences": [
+  {
+   "animation": "10_basic/10_enter",
+   "cues": [
+    {
+     "time": 0.0,
+     "events": [
+      {
+       "type": "SpawnFxEvent",
+       "bone": "root",
+       "offset": {
+        "x": 0.0,
+        "y": 0.0
+       },
+       "prefab": {
+        "guid": "b7ba6105d3635cd4eb1bf84b600ee850",
+        "subObject": null,
+        "subObjectType": null
+       },
+       "ignoreTimeScale": false,
+       "followRotate": false,
+       "followScale": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "touch": {
+  "boxes": [
+   "bd_A1",
+   "bd_A2",
+   "bd_A3",
+   "bd_C1",
+   "bd_T1",
+   "bd_T2",
+   "bd_T3",
+   "bd_T4",
+   "bd_T5"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "bd_A1",
+    "code": "A1",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A2",
+    "code": "A2",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A3",
+    "code": "A3",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_C1",
+    "code": "C1",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_T1",
+    "code": "T1",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_T2",
+    "code": "T2",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_T3",
+    "code": "T3",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_T4",
+    "code": "T4",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_T5",
+    "code": "T5",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 100.0,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 3,
+     "pathId": -1448471105419328718
+    },
+    "samples": [
+     {
+      "aspect": 1.0,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 0.7599999904632568
+     },
+     {
+      "aspect": 1.3348544836044312,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 0.8999999761581421
+     },
+     {
+      "aspect": 2.1666667461395264,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     },
+     {
+      "aspect": 2.777777671813965,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     }
+    ]
+   }
+  ],
+  "camera": {
+   "verticalFov": 60.0,
+   "nearClip": 0.009999999776482582,
+   "farClip": 100000.0
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureCutsceneSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "overlay": {
+     "texture": "postprocess_overlay_Silhouette.png",
+     "source": "Silhouette"
+    },
+    "background": {
+     "texture": "postprocess_background_Box_White.png",
+     "source": "Box_White"
+    }
+   }
+  ],
+  "bg": {
+   "name": "DS_Alone_bg",
+   "tex": "DS_Alone_bg.png",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 80.4,
+   "h": 60.26075
+  },
+  "backgrounds": [
+   {
+    "name": "DS_Alone_bg",
+    "tex": "DS_Alone_bg.png",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 80.4,
+    "h": 60.26075
+   }
+  ]
+ }
+}

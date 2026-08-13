@@ -1,0 +1,204 @@
+{
+ "skin": "st_np0103",
+ "kind": "standing",
+ "character": "NP0103",
+ "store": "onestore",
+ "skel": "ST_Maid_A.skel",
+ "atlas": "ST_Maid_A.atlas",
+ "textures": [
+  "ST_Maid_A.png"
+ ],
+ "animations": [
+  "00_idle_normal",
+  "01_embarrassed",
+  "01_smile"
+ ],
+ "animationGroups": {
+  "00": [
+   "00_idle_normal"
+  ],
+  "01": [
+   "01_embarrassed",
+   "01_smile"
+  ]
+ },
+ "faceAnimations": [
+  "01_embarrassed",
+  "01_smile"
+ ],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "-1ae6ea9e-52c29650",
+ "bounds": {
+  "x": -1443.5111,
+  "y": -183.7783,
+  "width": 2539.4272,
+  "height": 4774.7686
+ },
+ "slots": 69,
+ "bones": 81,
+ "events": [],
+ "attachments": [
+  "apron",
+  "cravat_bottom",
+  "cravat_metal",
+  "cravat_shadow",
+  "cravat_top",
+  "ear",
+  "forearm_L",
+  "forearm_R",
+  "forearm_back_L",
+  "forearm_back_R",
+  "frill_L",
+  "frill_L_back",
+  "frill_R",
+  "frill_apron",
+  "frill_apron_back",
+  "frill_head",
+  "frill_skirt",
+  "frill_skirt_back_L",
+  "frill_skirt_back_R",
+  "hair",
+  "hair_back_L",
+  "hair_back_R",
+  "hair_shadow",
+  "hand_L",
+  "hand_R",
+  "hand_finger_L",
+  "hand_finger_R",
+  "head",
+  "head_blush",
+  "leg_L",
+  "leg_R",
+  "mouth_1",
+  "mouth_2",
+  "mouth_close",
+  "neck",
+  "paint_1",
+  "paint_10",
+  "paint_10_shadow",
+  "paint_11",
+  "paint_11_shadow",
+  "paint_12",
+  "paint_12_shadow",
+  "paint_1_shadow",
+  "paint_2",
+  "paint_2_shadow",
+  "paint_3",
+  "paint_3_shadow",
+  "paint_4",
+  "paint_4_shadow",
+  "paint_5",
+  "paint_5_shadow",
+  "paint_6",
+  "paint_6_shadow",
+  "paint_7",
+  "paint_7_shadow",
+  "paint_8",
+  "paint_8_shadow",
+  "paint_9",
+  "paint_9_shadow",
+  "roller",
+  "roller_stick_1_1",
+  "roller_stick_1_2",
+  "roller_stick_2",
+  "roller_stick_3",
+  "roller_stick_part",
+  "roller_stick_shadow",
+  "skirt",
+  "torso",
+  "upperarm_L",
+  "upperarm_R"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "00_idle_normal",
+  "boring": "00_idle_boring",
+  "active": null,
+  "faceBone": "face",
+  "mouthBone": "mouth",
+  "heightType": 1,
+  "actorType": 0,
+  "pivot": {
+   "x": -1.3830395936965942,
+   "y": 39.1241569519043
+  },
+  "phases": [],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [],
+  "jigglers": [],
+  "regions": [],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 36.2599983215332,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -5655118642722884995
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": 2658046404174398979
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -6045381518747844681
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": 7012676955179412702
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -2924366971628282093
+    },
+    "samples": []
+   }
+  ],
+  "camera": {
+   "verticalFov": null,
+   "nearClip": null,
+   "farClip": null
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureStandingSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 1.0
+    }
+   }
+  ]
+ }
+}

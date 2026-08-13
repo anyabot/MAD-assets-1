@@ -1,0 +1,485 @@
+{
+ "skin": "ds_ch0019",
+ "kind": "desire",
+ "character": "CH0019",
+ "store": "onestore",
+ "skel": "DS_Victoria.skel",
+ "atlas": "DS_Victoria.atlas",
+ "textures": [
+  "DS_Victoria.png"
+ ],
+ "animations": [
+  "00_loop/00_loop",
+  "10_basic/10_enter__",
+  "10_basic/10_idle",
+  "10_basic/10_wait",
+  "10_function/10_get",
+  "10_function/10_mail",
+  "10_function/10_mission_comp",
+  "10_reaction/10_A1",
+  "10_reaction/10_A2",
+  "10_reaction/10_A3",
+  "10_reaction/10_A4",
+  "10_reaction/10_A5",
+  "10_reaction/10_A6",
+  "10_reaction/10_A7",
+  "10_reaction/10_A8",
+  "10_reaction/10_B1",
+  "10_reaction/10_B2",
+  "10_reaction/15_T1",
+  "20_blend/20_left",
+  "20_blend/21_right",
+  "20_blend/22_up",
+  "20_blend/23_down",
+  "30_overlay/30_chopstick_off",
+  "30_overlay/30_chopstick_on",
+  "emotion/40_emo_closed_1",
+  "emotion/40_emo_laugh",
+  "emotion/40_emo_normal",
+  "lobby/idle",
+  "lobby/touch"
+ ],
+ "animationGroups": {
+  "00_loop": [
+   "00_loop/00_loop"
+  ],
+  "10_basic": [
+   "10_basic/10_enter__",
+   "10_basic/10_idle",
+   "10_basic/10_wait"
+  ],
+  "10_function": [
+   "10_function/10_get",
+   "10_function/10_mail",
+   "10_function/10_mission_comp"
+  ],
+  "10_reaction": [
+   "10_reaction/10_A1",
+   "10_reaction/10_A2",
+   "10_reaction/10_A3",
+   "10_reaction/10_A4",
+   "10_reaction/10_A5",
+   "10_reaction/10_A6",
+   "10_reaction/10_A7",
+   "10_reaction/10_A8",
+   "10_reaction/10_B1",
+   "10_reaction/10_B2",
+   "10_reaction/15_T1"
+  ],
+  "20_blend": [
+   "20_blend/20_left",
+   "20_blend/21_right",
+   "20_blend/22_up",
+   "20_blend/23_down"
+  ],
+  "30_overlay": [
+   "30_overlay/30_chopstick_off",
+   "30_overlay/30_chopstick_on"
+  ],
+  "emotion": [
+   "emotion/40_emo_closed_1",
+   "emotion/40_emo_laugh",
+   "emotion/40_emo_normal"
+  ],
+  "lobby": [
+   "lobby/idle",
+   "lobby/touch"
+  ]
+ },
+ "faceAnimations": [],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "-3042153219131461",
+ "bounds": {
+  "x": -2000,
+  "y": -1933.3549,
+  "width": 4000,
+  "height": 3433.355
+ },
+ "slots": 137,
+ "bones": 168,
+ "events": [
+  "cam_off",
+  "cam_on",
+  "VOC_victoria_desire_enjoy_8",
+  "voice",
+  "Voice_victoria_a1",
+  "Voice_victoria_a2",
+  "Voice_victoria_a3",
+  "Voice_victoria_a4",
+  "Voice_victoria_a5",
+  "Voice_victoria_a6",
+  "Voice_victoria_b1",
+  "Voice_victoria_b2",
+  "Voice_victoria_nomal",
+  "Voice_victoria_t1"
+ ],
+ "attachments": [
+  "angry",
+  "apron_1",
+  "apron_1_shadow_2",
+  "apron_2",
+  "apron_2_2",
+  "apron_3",
+  "apron_4",
+  "apron_5",
+  "apron_L_shoulder",
+  "apron_L_shoulder_shadow",
+  "apron_R_shoulder_1",
+  "apron_R_shoulder_1_shadow_1",
+  "apron_R_shoulder_1_shadow_2",
+  "apron_R_shoulder_2",
+  "apron_R_shoulder_2_shadow",
+  "apron_R_shoulder_3",
+  "apron_front",
+  "apron_oppai_1",
+  "apron_ribbon_1",
+  "apron_ribbon_2",
+  "apron_ribbon_3",
+  "apron_ribbon_4",
+  "apron_ribbon_shadow_1",
+  "apron_ribbon_shadow_2",
+  "apron_ribbon_shadow_3",
+  "apron_shadow_2",
+  "arm_L_hand_1",
+  "arm_L_hand_2",
+  "arm_L_hand_3",
+  "arm_L_hand_4",
+  "arm_L_hand_5",
+  "arm_L_hand_6",
+  "arm_L_lower",
+  "arm_R_armpit",
+  "arm_R_hand_1",
+  "arm_R_hand_2",
+  "arm_R_hand_3",
+  "arm_R_lower",
+  "arm_R_oppai_shadow",
+  "arm_R_shadow",
+  "arm_R_upper",
+  "bd_A1",
+  "bd_A2",
+  "bd_A3",
+  "bd_A4",
+  "bd_A5",
+  "bd_A6",
+  "bd_A7",
+  "bd_A8",
+  "bd_B1",
+  "bd_B2",
+  "bd_T1",
+  "blush",
+  "blush_shy",
+  "blush_smile",
+  "body_butt_L",
+  "body_butt_R",
+  "body_chest",
+  "body_leg_L",
+  "body_leg_L_lower",
+  "body_leg_R",
+  "body_leg_R_lower",
+  "body_neck",
+  "ear_L",
+  "ear_R",
+  "eye_crystal",
+  "eye_hitomi",
+  "eye_light",
+  "eyebrows_desire",
+  "eyebrows_normal",
+  "eyebrows_shy",
+  "eyelid",
+  "eyeline",
+  "eyes_closed",
+  "eyes_closed_2",
+  "face",
+  "face_closed",
+  "face_eyelid",
+  "face_nose",
+  "face_shadow_1",
+  "face_shadow_2",
+  "face_shadow_3",
+  "hair_back_1",
+  "hair_back_2",
+  "hair_back_3",
+  "hair_front_1",
+  "hair_front_2",
+  "hair_front_3",
+  "hair_front_3_shadow",
+  "hair_front_4",
+  "hair_front_4_shadow",
+  "hair_side_L_1",
+  "hair_side_L_2",
+  "hair_side_R_1",
+  "hair_side_R_2",
+  "hair_side_tail",
+  "hairband",
+  "hairband2",
+  "hand_L",
+  "mouth_normal",
+  "mouth_normal_closed",
+  "mouth_o",
+  "mouth_shy",
+  "mouth_shy_closed",
+  "mouth_teeth",
+  "obj_1",
+  "obj_chopstick1",
+  "obj_chopstick_a",
+  "obj_chopstick_b",
+  "oppai_L",
+  "oppai_R",
+  "pulpil_lead",
+  "pulpil_shy",
+  "steam",
+  "sweat",
+  "thumb_L",
+  "tofu_knife",
+  "tofu_knife_shadow",
+  "twinkle",
+  "white"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "lobby/idle",
+  "boring": null,
+  "active": "lobby/touch",
+  "faceBone": null,
+  "mouthBone": null,
+  "heightType": null,
+  "actorType": 1,
+  "pivot": null,
+  "phases": [
+   {
+    "idle": "lobby/idle",
+    "boring": null,
+    "active": "lobby/touch"
+   }
+  ],
+  "volumeProfiles": []
+ },
+ "sequences": [
+  {
+   "animation": "10_basic/10_enter__",
+   "cues": [
+    {
+     "time": 0.0,
+     "events": [
+      {
+       "type": "SpawnFxEvent",
+       "bone": "root",
+       "offset": {
+        "x": 0.0,
+        "y": 0.0
+       },
+       "prefab": {
+        "guid": "85a5480e50de28749a0e35ddf6e3f8ca",
+        "subObject": null,
+        "subObjectType": null
+       },
+       "ignoreTimeScale": false,
+       "followRotate": false,
+       "followScale": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "touch": {
+  "boxes": [
+   "bd_A1",
+   "bd_A2",
+   "bd_A3",
+   "bd_A4",
+   "bd_A5",
+   "bd_A6",
+   "bd_A7",
+   "bd_A8",
+   "bd_B1",
+   "bd_B2",
+   "bd_T1"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "bd_A1",
+    "code": "A1",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A2",
+    "code": "A2",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A3",
+    "code": "A3",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A4",
+    "code": "A4",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A5",
+    "code": "A5",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A6",
+    "code": "A6",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A7",
+    "code": "A7",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_A8",
+    "code": "A8",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_B1",
+    "code": "B1",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_B2",
+    "code": "B2",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_T1",
+    "code": "T1",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 100.0,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -1448471105419328718
+    },
+    "samples": [
+     {
+      "aspect": 1.0,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 0.75
+     },
+     {
+      "aspect": 1.3333333730697632,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     },
+     {
+      "aspect": 2.1666667461395264,
+      "position": {
+       "x": 0.0,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     },
+     {
+      "aspect": 2.777777671813965,
+      "position": {
+       "x": 0.0,
+       "y": 21.229999542236328
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     }
+    ]
+   }
+  ],
+  "camera": {
+   "verticalFov": 60.0,
+   "nearClip": 0.009999999776482582,
+   "farClip": 100000.0
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureCutsceneSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "overlay": {
+     "texture": "postprocess_overlay_Silhouette.png",
+     "source": "Silhouette"
+    },
+    "background": {
+     "texture": "postprocess_background_Box_White.png",
+     "source": "Box_White"
+    }
+   }
+  ],
+  "bg": {
+   "name": "DS_Victoria_bg",
+   "tex": "DS_Victoria_bg.png",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 38.4,
+   "h": 28.8
+  },
+  "backgrounds": [
+   {
+    "name": "DS_Victoria_bg",
+    "tex": "DS_Victoria_bg.png",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 38.4,
+    "h": 28.8
+   }
+  ]
+ }
+}

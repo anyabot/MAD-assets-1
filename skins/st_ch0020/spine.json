@@ -1,0 +1,333 @@
+{
+ "skin": "st_ch0020",
+ "kind": "standing",
+ "character": "CH0020",
+ "store": "onestore",
+ "skel": "ST_CH0020.skel",
+ "atlas": "ST_CH0020.atlas",
+ "textures": [
+  "ST_CH0020.png"
+ ],
+ "animations": [
+  "00_active",
+  "00_idle_boring",
+  "00_idle_normal",
+  "01_anger",
+  "01_closeeye",
+  "01_embarrassed",
+  "01_fear",
+  "01_happy",
+  "01_question",
+  "01_sad",
+  "01_serious",
+  "01_shy",
+  "01_smile",
+  "01_surprised",
+  "style_1"
+ ],
+ "animationGroups": {
+  "": [
+   "style_1"
+  ],
+  "00": [
+   "00_active",
+   "00_idle_boring",
+   "00_idle_normal"
+  ],
+  "01": [
+   "01_anger",
+   "01_closeeye",
+   "01_embarrassed",
+   "01_fear",
+   "01_happy",
+   "01_question",
+   "01_sad",
+   "01_serious",
+   "01_shy",
+   "01_smile",
+   "01_surprised"
+  ]
+ },
+ "faceAnimations": [
+  "01_anger",
+  "01_closeeye",
+  "01_embarrassed",
+  "01_fear",
+  "01_happy",
+  "01_question",
+  "01_sad",
+  "01_serious",
+  "01_shy",
+  "01_smile",
+  "01_surprised"
+ ],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "a83affc68b52402",
+ "bounds": {
+  "x": -2478.1284,
+  "y": -298.6456,
+  "width": 4240.1294,
+  "height": 7895.998
+ },
+ "slots": 142,
+ "bones": 225,
+ "events": [],
+ "attachments": [
+  "BD_body",
+  "arm_cloth_R",
+  "arm_cloth_R_2",
+  "arm_cloth_back_L",
+  "arm_cloth_back_R",
+  "arm_cloth_front_L",
+  "arm_cloth_ribbon_L",
+  "arm_cloth_ribbon_R",
+  "arm_lower_L",
+  "arm_lower_R",
+  "arm_upper_L",
+  "arm_upper_R",
+  "arm_upper_R_2",
+  "bird_arm_upper_L",
+  "bird_arm_upper_R",
+  "bird_beak_02",
+  "bird_beak_back_01",
+  "bird_beak_back_03",
+  "bird_beak_bottom_01",
+  "bird_beak_bottom_03",
+  "bird_beak_top_01",
+  "bird_beak_top_03",
+  "bird_body",
+  "bird_bracelet_back",
+  "bird_bracelet_front",
+  "bird_ear_L",
+  "bird_ear_L_02",
+  "bird_ear_L_03",
+  "bird_ear_R",
+  "bird_ear_R_02",
+  "bird_ear_R_03",
+  "bird_face_01",
+  "bird_face_02",
+  "bird_face_03",
+  "bird_foot_R_front",
+  "bird_leg_R",
+  "bird_shoulder_L",
+  "bird_shoulder_R",
+  "bird_tail",
+  "bird_wing_L_01",
+  "bird_wing_L_02",
+  "bird_wing_L_03",
+  "bird_wing_L_04",
+  "bird_wing_R_01",
+  "bird_wing_R_02",
+  "bird_wing_R_03",
+  "bird_wing_R_04",
+  "blush",
+  "bracelet_back",
+  "bracelet_front",
+  "breast_L",
+  "breast_R",
+  "breast_cloth",
+  "breast_ribbon",
+  "breast_ribbons",
+  "breast_zipper_back_L",
+  "breast_zipper_back_R",
+  "breast_zipper_front_L",
+  "breast_zipper_front_R",
+  "breast_zipper_left_L",
+  "breast_zipper_left_R",
+  "breast_zipper_right_L",
+  "breast_zipper_right_R",
+  "breast_zipper_shadow_R",
+  "cloth_accessories_lower",
+  "cloth_accessories_shadow",
+  "cloth_accessories_upper",
+  "cloth_back",
+  "cloth_line",
+  "cloth_ribbon",
+  "ear_L",
+  "ear_R",
+  "eye",
+  "eye_3",
+  "eye_4",
+  "eye_6",
+  "eye_ball",
+  "eye_ball4",
+  "eye_close",
+  "eye_crystalline",
+  "eye_happy",
+  "eyebrows_anger",
+  "eyebrows_default",
+  "eyebrows_embarrassed",
+  "eyebrows_fear",
+  "eyebrows_question",
+  "eyebrows_sad",
+  "eyebrows_serious",
+  "eyebrows_shy",
+  "eyebrows_surprised",
+  "eyes_1_shadow",
+  "eyes_anger",
+  "face",
+  "face2",
+  "face_brush",
+  "face_fear",
+  "face_shadow",
+  "face_shadow_2",
+  "folding_fan1",
+  "folding_fan2",
+  "folding_fan3",
+  "folding_fan4",
+  "hair_L",
+  "hair_R",
+  "hair_back",
+  "hair_bun_hair",
+  "hair_m",
+  "hair_ml",
+  "hairpin",
+  "hairpin_lantern",
+  "hairpin_ribbon_bottom",
+  "hairpin_ribbon_top",
+  "hands_L_front",
+  "hands_R",
+  "hands_R_2_1",
+  "hands_R_2_2_2",
+  "hands_R_2_finger_01_2",
+  "hands_R_2_finger_02_2",
+  "hands_R_2_finger_03_2",
+  "hands_R_2_finger_04_2",
+  "hands_back_L",
+  "horn_R",
+  "horn_screen",
+  "leg_lower_L",
+  "leg_lower_R",
+  "leg_lower_ribbon_L",
+  "leg_lower_ribbon_R",
+  "leg_lower_ribbon_shadow_L",
+  "leg_upper_L",
+  "leg_upper_R",
+  "leg_upper_chain_R",
+  "leg_upper_line_lower_R",
+  "leg_upper_line_upper_R",
+  "leg_upper_ribbon_R",
+  "mole",
+  "mouth_anger",
+  "mouth_default",
+  "mouth_embarrassed",
+  "mouth_fear",
+  "mouth_happy",
+  "mouth_question",
+  "mouth_question2",
+  "mouth_sad",
+  "mouth_serious",
+  "mouth_shy",
+  "mouth_smile",
+  "mouth_surprised",
+  "neck",
+  "neck_ribbon",
+  "neck_ribbon_shadow",
+  "pelvis",
+  "skirt",
+  "sweat",
+  "torso"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "00_idle_normal",
+  "boring": "00_idle_boring",
+  "active": "00_active",
+  "faceBone": "face",
+  "mouthBone": "mouth",
+  "heightType": 2,
+  "actorType": 0,
+  "pivot": {
+   "x": -0.2026195377111435,
+   "y": 65.96070098876953
+  },
+  "phases": [],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [
+   "BD_body"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "BD_body",
+    "code": "BD_body",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 25.760000228881836,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -5655118642722884995
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": 2658046404174398979
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -6045381518747844681
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": 7012676955179412702
+    },
+    "samples": []
+   },
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -2924366971628282093
+    },
+    "samples": []
+   }
+  ],
+  "camera": {
+   "verticalFov": null,
+   "nearClip": null,
+   "farClip": null
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureStandingSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 1.0
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,362 @@
+{
+ "skin": "ds_ch0009",
+ "kind": "desire",
+ "character": "CH0009",
+ "store": "onestore",
+ "skel": "DS_Elisia.skel",
+ "atlas": "DS_Elisia.atlas",
+ "textures": [
+  "DS_Elisia.png"
+ ],
+ "animations": [
+  "10_basic/10_enter",
+  "10_basic/10_idle",
+  "10_basic/10_idle_H",
+  "10_basic/10_wait",
+  "10_reaction/10_A1",
+  "10_reaction/10_A2",
+  "10_reaction/10_A3",
+  "10_reaction/10_B1",
+  "10_reaction/10_H1",
+  "10_reaction/10_H2",
+  "10_reaction/10_touch",
+  "10_reaction/15_T1",
+  "30_overlay/30_glass_H",
+  "30_overlay/30_glass_off",
+  "30_overlay/30_glass_on",
+  "30_overlay/30_twinkle",
+  "lobby/idle",
+  "lobby/touch"
+ ],
+ "animationGroups": {
+  "10_basic": [
+   "10_basic/10_enter",
+   "10_basic/10_idle",
+   "10_basic/10_idle_H",
+   "10_basic/10_wait"
+  ],
+  "10_reaction": [
+   "10_reaction/10_A1",
+   "10_reaction/10_A2",
+   "10_reaction/10_A3",
+   "10_reaction/10_B1",
+   "10_reaction/10_H1",
+   "10_reaction/10_H2",
+   "10_reaction/10_touch",
+   "10_reaction/15_T1"
+  ],
+  "30_overlay": [
+   "30_overlay/30_glass_H",
+   "30_overlay/30_glass_off",
+   "30_overlay/30_glass_on",
+   "30_overlay/30_twinkle"
+  ],
+  "lobby": [
+   "lobby/idle",
+   "lobby/touch"
+  ]
+ },
+ "faceAnimations": [],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "1ef4d94f-3d27bff2",
+ "bounds": {
+  "x": -1974.0143,
+  "y": -1880.7527,
+  "width": 3923.6138,
+  "height": 3120.6641
+ },
+ "slots": 74,
+ "bones": 162,
+ "events": [],
+ "attachments": [
+  "arm_L",
+  "arm_R_hand_finger1",
+  "arm_R_hand_finger2",
+  "arm_R_hand_finger2_back",
+  "arm_R_hand_finger2_back2",
+  "arm_R_hand_finger3",
+  "arm_R_hand_finger3_back",
+  "arm_R_hand_finger3_back2",
+  "arm_R_hand_finger4",
+  "arm_R_hand_finger5",
+  "arm_R_lower_back",
+  "arm_R_lower_front",
+  "arm_R_lower_hand",
+  "arm_R_lower_wrist",
+  "arm_R_upper",
+  "bd_breath",
+  "bd_ear",
+  "bd_elisiaglass",
+  "bd_head",
+  "bd_horn_L",
+  "bd_horn_R",
+  "bd_playerglass",
+  "blush",
+  "body_real",
+  "chest_acc",
+  "ear_r",
+  "eye_closed",
+  "eye_closed_backup",
+  "eye_hitomi_L",
+  "eye_hitomi_R",
+  "eye_open",
+  "eye_open_back",
+  "eye_open_back_backup",
+  "eye_open_backup",
+  "eye_sclera",
+  "eye_smile",
+  "eye_smile_backup",
+  "eyebrow",
+  "eyebrow_2",
+  "face",
+  "face_eyehole",
+  "hair_back",
+  "hair_front_C1",
+  "hair_front_C2",
+  "hair_front_L",
+  "hair_front_R",
+  "head_horn_L",
+  "head_horn_R",
+  "mouth",
+  "mouth_closed",
+  "mouth_embarrassed",
+  "mouth_smile",
+  "oppai_L",
+  "oppai_R",
+  "twinkle",
+  "white",
+  "wind_shadow",
+  "wine_0",
+  "wine_base_3",
+  "wine_cup_1",
+  "wine_cup_2",
+  "wing_L1",
+  "wing_L2",
+  "wing_R1",
+  "wing_R2"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "lobby/idle",
+  "boring": null,
+  "active": "lobby/touch",
+  "faceBone": null,
+  "mouthBone": null,
+  "heightType": null,
+  "actorType": 1,
+  "pivot": null,
+  "phases": [
+   {
+    "idle": "lobby/idle",
+    "boring": null,
+    "active": "lobby/touch"
+   }
+  ],
+  "volumeProfiles": []
+ },
+ "sequences": [
+  {
+   "animation": "10_basic/10_enter",
+   "cues": [
+    {
+     "time": 0.0,
+     "events": [
+      {
+       "type": "SpawnFxEvent",
+       "bone": "root",
+       "offset": {
+        "x": 0.0,
+        "y": 0.0
+       },
+       "prefab": {
+        "guid": "ee4ddd2db60e3a34da95f368337d0373",
+        "subObject": null,
+        "subObjectType": null
+       },
+       "ignoreTimeScale": false,
+       "followRotate": false,
+       "followScale": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "touch": {
+  "boxes": [
+   "bd_breath",
+   "bd_ear",
+   "bd_elisiaglass",
+   "bd_head",
+   "bd_horn_L",
+   "bd_horn_R",
+   "bd_playerglass"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "bd_breath",
+    "code": "breath",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_ear",
+    "code": "ear",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_elisiaglass",
+    "code": "elisiaglass",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_head",
+    "code": "head",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_horn_L",
+    "code": "horn",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_horn_R",
+    "code": "horn",
+    "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_playerglass",
+    "code": "playerglass",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 100.0,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 2,
+     "pathId": -1448471105419328718
+    },
+    "samples": [
+     {
+      "aspect": 1.0,
+      "position": {
+       "x": 168.3699951171875,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 0.7599999904632568
+     },
+     {
+      "aspect": 1.3333333730697632,
+      "position": {
+       "x": 113.94000244140625,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 0.8299999833106995
+     },
+     {
+      "aspect": 2.1626617908477783,
+      "position": {
+       "x": 245.3000030517578,
+       "y": -12.5
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     },
+     {
+      "aspect": 2.1666667461395264,
+      "position": {
+       "x": 245.3299560546875,
+       "y": -12.687058448791504
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     },
+     {
+      "aspect": 2.777777671813965,
+      "position": {
+       "x": 249.89999389648438,
+       "y": -41.22999954223633
+      },
+      "rotation": 8.300000190734863,
+      "scale": 1.0
+     }
+    ]
+   }
+  ],
+  "camera": {
+   "verticalFov": 60.0,
+   "nearClip": 0.009999999776482582,
+   "farClip": 100000.0
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureCutsceneSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "overlay": {
+     "texture": "postprocess_overlay_Silhouette.png",
+     "source": "Silhouette"
+    },
+    "background": {
+     "texture": "postprocess_background_Box_White.png",
+     "source": "Box_White"
+    }
+   }
+  ],
+  "bg": {
+   "name": "DS_Elisia_bg",
+   "tex": "DS_Elisia_bg.png",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 38.4,
+   "h": 24.0
+  },
+  "backgrounds": [
+   {
+    "name": "DS_Elisia_bg",
+    "tex": "DS_Elisia_bg.png",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 38.4,
+    "h": 24.0
+   }
+  ]
+ }
+}

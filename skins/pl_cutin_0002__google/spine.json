@@ -1,0 +1,345 @@
+{
+ "skin": "pl_cutin_0002",
+ "kind": "pleasure",
+ "character": "cutin_0002",
+ "store": "google",
+ "skel": "PL_cutin_0002.skel",
+ "atlas": "PL_cutin_0002.atlas",
+ "textures": [
+  "PL_cutin_0002.png"
+ ],
+ "animations": [
+  "00_idle"
+ ],
+ "animationGroups": {
+  "00": [
+   "00_idle"
+  ]
+ },
+ "faceAnimations": [],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "635b64e231ceb315",
+ "bounds": {
+  "x": -3841,
+  "y": -2249.2593,
+  "width": 7715.0439,
+  "height": 4424.6699
+ },
+ "slots": 134,
+ "bones": 188,
+ "events": [],
+ "attachments": [
+  "F_arm_L",
+  "F_blush",
+  "F_blush2",
+  "F_body",
+  "F_bread",
+  "F_eye_L",
+  "F_eye_L_close",
+  "F_eye_L_close_cover",
+  "F_eye_L_cover",
+  "F_eye_R",
+  "F_eye_R_cover",
+  "F_eyebrow",
+  "F_eyebrow_cover",
+  "F_face",
+  "F_hair_F",
+  "F_hair_L",
+  "F_hair_L_acc",
+  "F_hair_L_acc_shadow",
+  "F_hair_R",
+  "F_hair_SL",
+  "F_hair_SR",
+  "F_hair_twintail_L",
+  "F_hair_twintail_R",
+  "F_hand_L",
+  "F_headacc",
+  "F_hitomi_L",
+  "F_leg_lower",
+  "F_leg_upper",
+  "F_mouth",
+  "F_oppai",
+  "F_sclera_L",
+  "F_torso",
+  "L_acc1",
+  "L_acc1_shadow",
+  "L_acc2_bell",
+  "L_acc2_shadow",
+  "L_acc2_tail",
+  "L_arm_L",
+  "L_arm_L_sleeve",
+  "L_arm_L_sleeve_back",
+  "L_arm_R_hand",
+  "L_arm_R_lower",
+  "L_arm_R_sleeve",
+  "L_arm_R_upper",
+  "L_blush",
+  "L_blush2",
+  "L_cloth_B",
+  "L_cloth_F",
+  "L_cloth_shadow",
+  "L_ear_L",
+  "L_ear_R",
+  "L_eye_closed",
+  "L_eye_closed_cover",
+  "L_eye_lower_L",
+  "L_eye_lower_L_cover",
+  "L_eye_lower_R",
+  "L_eye_lower_R_cover",
+  "L_eye_sclera",
+  "L_eye_upper_L",
+  "L_eye_upper_L_cover",
+  "L_eye_upper_R",
+  "L_eye_upper_R_cover",
+  "L_eyebrow",
+  "L_face",
+  "L_face_closed",
+  "L_hair_back",
+  "L_hair_front",
+  "L_head_acc1_L1",
+  "L_head_acc1_L2",
+  "L_head_acc1_R1",
+  "L_head_acc1_R2",
+  "L_head_acc2_L1",
+  "L_head_acc2_L2",
+  "L_head_acc2_R1",
+  "L_head_acc2_R2",
+  "L_hitomi_L",
+  "L_hitomi_R",
+  "L_leg_L",
+  "L_leg_R",
+  "L_mouth",
+  "L_mouth_closed",
+  "L_neck",
+  "L_neck_clothes",
+  "L_nose",
+  "L_oppai",
+  "L_oppai_clothes_L_CEN",
+  "L_oppai_clothes_R_CEN",
+  "L_oppai_light_L",
+  "L_oppai_light_R",
+  "L_oppai_shadow",
+  "L_pelivs_CEN",
+  "L_sweat1",
+  "L_sweat2",
+  "L_sweat3",
+  "L_sweat4",
+  "L_sweat6",
+  "L_torso_CEN",
+  "T_seta_hip",
+  "adj1",
+  "adj2",
+  "bd_Freya",
+  "bd_Lumina_acc",
+  "bd_Lumina_breast_L",
+  "bd_Lumina_breast_R",
+  "bd_Lumina_leg_L",
+  "bd_Lumina_leg_R",
+  "bd_Lumina_pelvis",
+  "bd_Theta",
+  "f_arm_L_armor_back",
+  "f_arm_L_armor_front",
+  "f_arm_L_armor_front_shadow",
+  "lens_flair",
+  "necklace_C",
+  "necklace_C _shadow",
+  "necklace_L",
+  "necklace_L_shadow",
+  "necklace_R",
+  "necklace_R_shadow",
+  "ray",
+  "shadow"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": [
+   "L_oppai_clothes_L_CEN",
+   "L_oppai_clothes_R_CEN",
+   "L_pelivs_CEN",
+   "L_torso_CEN"
+  ]
+ },
+ "actor": {
+  "idle": "00_idle",
+  "boring": null,
+  "active": "00_idle",
+  "faceBone": null,
+  "mouthBone": null,
+  "heightType": null,
+  "actorType": 3,
+  "pivot": null,
+  "phases": [
+   {
+    "idle": "00_idle",
+    "boring": null,
+    "active": "00_idle"
+   }
+  ],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [
+   "bd_Freya",
+   "bd_Lumina_acc",
+   "bd_Lumina_breast_L",
+   "bd_Lumina_breast_R",
+   "bd_Lumina_leg_L",
+   "bd_Lumina_leg_R",
+   "bd_Lumina_pelvis",
+   "bd_Theta"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "bd_Freya",
+    "code": "Freya",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Lumina_acc",
+    "code": "Lumina_acc",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Lumina_breast_L",
+    "code": "Lumina_breast",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Lumina_breast_R",
+    "code": "Lumina_breast",
+    "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Lumina_leg_L",
+    "code": "Lumina_leg",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Lumina_leg_R",
+    "code": "Lumina_leg",
+    "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Lumina_pelvis",
+    "code": "Lumina_pelvis",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_Theta",
+    "code": "Theta",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 100.0,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 3,
+     "pathId": -1448471105419328718
+    },
+    "samples": [
+     {
+      "aspect": 1.0,
+      "position": {
+       "x": 0.0,
+       "y": -53.709999084472656
+      },
+      "rotation": 0.0,
+      "scale": 0.699999988079071
+     },
+     {
+      "aspect": 2.1666667461395264,
+      "position": {
+       "x": 0.0,
+       "y": -53.709999084472656
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     },
+     {
+      "aspect": 2.777777671813965,
+      "position": {
+       "x": 0.0,
+       "y": 22.0
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     }
+    ]
+   }
+  ],
+  "camera": {
+   "verticalFov": 60.0,
+   "nearClip": 0.009999999776482582,
+   "farClip": 100000.0
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureCutsceneSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "overlay": {
+     "texture": "postprocess_overlay_Silhouette.png",
+     "source": "Silhouette"
+    },
+    "background": {
+     "texture": "postprocess_background_Box_White.png",
+     "source": "Box_White"
+    }
+   }
+  ],
+  "bg": {
+   "name": "PL_cutin_0002_BG",
+   "tex": "PL_cutin_0002_BG.png",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 76.8,
+   "h": 43.2
+  },
+  "backgrounds": [
+   {
+    "name": "PL_cutin_0002_BG",
+    "tex": "PL_cutin_0002_BG.png",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 76.8,
+    "h": 43.2
+   }
+  ]
+ }
+}

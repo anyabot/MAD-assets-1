@@ -1,0 +1,464 @@
+{
+ "skin": "ds_ch0038",
+ "kind": "desire",
+ "character": "CH0038",
+ "store": "onestore",
+ "skel": "DS_CH0038.skel",
+ "atlas": "DS_CH0038.atlas",
+ "textures": [
+  "DS_CH0038.png"
+ ],
+ "animations": [
+  "10_basic/10_enter",
+  "10_basic/10_idle",
+  "10_basic/10_wait",
+  "10_reaction/10_A1",
+  "10_reaction/10_A2",
+  "10_reaction/10_A3",
+  "10_reaction/10_A4",
+  "10_reaction/10_H1",
+  "10_reaction/10_touch",
+  "30_overlay/30_T1",
+  "30_overlay/30_T2",
+  "30_overlay/30_twinkle",
+  "lobby/idle",
+  "lobby/touch"
+ ],
+ "animationGroups": {
+  "10_basic": [
+   "10_basic/10_enter",
+   "10_basic/10_idle",
+   "10_basic/10_wait"
+  ],
+  "10_reaction": [
+   "10_reaction/10_A1",
+   "10_reaction/10_A2",
+   "10_reaction/10_A3",
+   "10_reaction/10_A4",
+   "10_reaction/10_H1",
+   "10_reaction/10_touch"
+  ],
+  "30_overlay": [
+   "30_overlay/30_T1",
+   "30_overlay/30_T2",
+   "30_overlay/30_twinkle"
+  ],
+  "lobby": [
+   "lobby/idle",
+   "lobby/touch"
+  ]
+ },
+ "faceAnimations": [],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "1b635534-5dd5e407",
+ "bounds": {
+  "x": -2398,
+  "y": -1498.0896,
+  "width": 4802,
+  "height": 3002.239
+ },
+ "slots": 178,
+ "bones": 251,
+ "events": [
+  "pp_off",
+  "pp_on"
+ ],
+ "attachments": [
+  "REC",
+  "arm_lower_L",
+  "arm_lower_R",
+  "arm_upper_L",
+  "arm_upper_R",
+  "battery",
+  "bd_body",
+  "bd_breath",
+  "bd_head",
+  "bd_hip",
+  "bg_black",
+  "bg_effect_front_1_scr",
+  "bg_effect_front_2_scr",
+  "bg_pilory_7",
+  "bg_pilory_L_1",
+  "bg_pilory_L_2",
+  "bg_pilory_M_1",
+  "bg_pilory_M_2",
+  "bg_pilory_M_3",
+  "bg_pilory_M_3_dup01",
+  "bg_pilory_R_1",
+  "bg_pilory_R_2",
+  "bg_pilory_lock_L_1",
+  "bg_pilory_lock_L_2",
+  "bg_pilory_lock_L_3",
+  "bg_pilory_lock_L_4",
+  "bg_pilory_lock_L_5",
+  "bg_pilory_lock_R_1",
+  "bg_pilory_lock_R_2",
+  "bg_pilory_lock_R_3",
+  "bg_pilory_lock_R_4",
+  "bg_pilory_lock_R_5",
+  "blush",
+  "body_1",
+  "body_UNCEN",
+  "boom_mic",
+  "boom_mic_line_ex",
+  "boom_pole_2",
+  "boom_pole_2_2",
+  "breast_L",
+  "breast_R",
+  "darkcircle",
+  "deephighlight",
+  "deephighlight_3",
+  "deepshadow_multi",
+  "ear_L",
+  "ear_L_earring",
+  "eye",
+  "eye_closed",
+  "eye_closed_cover",
+  "eye_cover",
+  "eyebrow",
+  "eyebrow_angry",
+  "eyebrow_angry_cover",
+  "eyebrow_cover",
+  "eyebrow_serious",
+  "eyebrow_serious_cover",
+  "eyebrow_shadow",
+  "eyebrow_shadow_angry",
+  "eyebrow_shadow_seriou",
+  "eyelid",
+  "hair_L_1",
+  "hair_L_2",
+  "hair_L_3",
+  "hair_L_4",
+  "hair_L_5",
+  "hair_M_L_1",
+  "hair_M_L_2",
+  "hair_M_L_3",
+  "hair_M_R_1",
+  "hair_M_R_2",
+  "hair_M_R_3",
+  "hair_M_R_4",
+  "hair_R_1",
+  "hair_R_2",
+  "hair_R_3",
+  "hair_R_4",
+  "hair_R_5",
+  "hair_R_6",
+  "hair_R_7",
+  "hair_R_8",
+  "hair_R_9",
+  "hair_back",
+  "hand_L_1",
+  "hand_L_2",
+  "hand_L_3",
+  "hand_L_4",
+  "hand_L_5",
+  "hand_L_6",
+  "hand_L_6_fist",
+  "hand_R_1",
+  "hand_R_2",
+  "hand_R_3",
+  "hand_R_4",
+  "hand_R_5",
+  "hand_R_6",
+  "hand_R_6_fist",
+  "head",
+  "highlight",
+  "highlight2",
+  "iris",
+  "iris2",
+  "iris_2",
+  "iris_2_2",
+  "iris_embarrassed",
+  "leg_L",
+  "leg_R",
+  "makeup",
+  "makeup_closed",
+  "makeup_mascara_1",
+  "makeup_mascara_2",
+  "mouth",
+  "mouth_angry",
+  "mouth_lipstick",
+  "mouth_open_1",
+  "mouth_open_2",
+  "mouth_open_3",
+  "mouth_prop",
+  "mouth_question",
+  "mouth_serious",
+  "mouth_teeth_1",
+  "mouth_teeth_1_dup01",
+  "mouth_tongue_1",
+  "mouth_tongue_2",
+  "nipple_L_UNCEN",
+  "nipple_L_light_UNCEN",
+  "nipple_R_UNCEN",
+  "nipple_R_light_UNCEN",
+  "poster",
+  "red_dot",
+  "red_triangle_down",
+  "red_triangle_side",
+  "ring",
+  "sclera",
+  "screen_AOV",
+  "screen_exposure",
+  "screen_frame2",
+  "screen_resolution",
+  "shirt_L",
+  "shirt_M_1",
+  "shirt_M_2",
+  "shirt_R",
+  "shirt_back_1",
+  "shirt_back_2",
+  "shirt_shadow",
+  "shoulder_L",
+  "spit_1",
+  "spit_2",
+  "sweat_1",
+  "sweat_2",
+  "sweat_3",
+  "tear_1",
+  "tear_2",
+  "twinkle",
+  "vibe_1",
+  "vibe_2",
+  "vibe_2_2",
+  "vibe_button_1",
+  "vibe_button_2",
+  "vibe_button_3",
+  "vibe_shadow",
+  "white",
+  "wrinkle",
+  "wrinkle_angry"
+ ],
+ "censorship": {
+  "uncensored": [
+   "body_UNCEN",
+   "nipple_L_UNCEN",
+   "nipple_L_light_UNCEN",
+   "nipple_R_UNCEN",
+   "nipple_R_light_UNCEN"
+  ],
+  "censored": []
+ },
+ "actor": {
+  "idle": "lobby/idle",
+  "boring": null,
+  "active": "lobby/touch",
+  "faceBone": null,
+  "mouthBone": null,
+  "heightType": null,
+  "actorType": 1,
+  "pivot": null,
+  "phases": [
+   {
+    "idle": "lobby/idle",
+    "boring": null,
+    "active": "lobby/touch"
+   }
+  ],
+  "volumeProfiles": []
+ },
+ "sequences": [
+  {
+   "animation": "10_basic/10_enter",
+   "cues": [
+    {
+     "time": 0.0,
+     "events": [
+      {
+       "type": "SpawnFxEvent",
+       "bone": "root",
+       "offset": {
+        "x": 0.0,
+        "y": 0.0
+       },
+       "prefab": {
+        "guid": "ae7f587b1db2dce47bb36af61e17205b",
+        "subObject": null,
+        "subObjectType": null
+       },
+       "ignoreTimeScale": false,
+       "followRotate": false,
+       "followScale": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "animation": "10_reaction/10_A4",
+   "cues": [
+    {
+     "time": 0.0,
+     "events": [
+      {
+       "type": "SpawnFxEvent",
+       "bone": "root",
+       "offset": {
+        "x": 0.0,
+        "y": 0.0
+       },
+       "prefab": {
+        "guid": "723b15ab7ff427c45b790a2423272fb8",
+        "subObject": null,
+        "subObjectType": null
+       },
+       "ignoreTimeScale": false,
+       "followRotate": false,
+       "followScale": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "touch": {
+  "boxes": [
+   "bd_body",
+   "bd_breath",
+   "bd_head",
+   "bd_hip"
+  ],
+  "jigglers": [],
+  "regions": [
+   {
+    "box": "bd_body",
+    "code": "body",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_breath",
+    "code": "breath",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_head",
+    "code": "head",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_hip",
+    "code": "hip",
+    "side": null,
+    "state": null,
+    "effect": "generic"
+   }
+  ],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 100.0,
+  "cutsceneOffsets": [
+   {
+    "category": {
+     "fileId": 3,
+     "pathId": -1448471105419328718
+    },
+    "samples": [
+     {
+      "aspect": 1.0,
+      "position": {
+       "x": -134.89999389648438,
+       "y": 0.0
+      },
+      "rotation": 0.0,
+      "scale": 0.75
+     },
+     {
+      "aspect": 1.600547194480896,
+      "position": {
+       "x": -220.70960998535156,
+       "y": 141.50999450683594
+      },
+      "rotation": 0.0,
+      "scale": 0.8999999761581421
+     },
+     {
+      "aspect": 1.7781155109405518,
+      "position": {
+       "x": -233.60000610351562,
+       "y": 138.39999389648438
+      },
+      "rotation": 0.0,
+      "scale": 0.9300000071525574
+     },
+     {
+      "aspect": 2.1666667461395264,
+      "position": {
+       "x": -301.6000061035156,
+       "y": 121.5
+      },
+      "rotation": 0.0,
+      "scale": 1.0
+     },
+     {
+      "aspect": 2.777777671813965,
+      "position": {
+       "x": -209.0,
+       "y": 76.80000305175781
+      },
+      "rotation": 0.0,
+      "scale": 1.100000023841858
+     }
+    ]
+   }
+  ],
+  "camera": {
+   "verticalFov": 60.0,
+   "nearClip": 0.009999999776482582,
+   "farClip": 100000.0
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureCutsceneSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 1.0,
+     "g": 1.0,
+     "b": 1.0,
+     "a": 1.0
+    },
+    "overlay": {
+     "texture": "postprocess_overlay_Silhouette.png",
+     "source": "Silhouette"
+    },
+    "background": {
+     "texture": "postprocess_background_Box_White.png",
+     "source": "Box_White"
+    }
+   }
+  ],
+  "bg": {
+   "name": "DS_CH0038_bg",
+   "tex": "DS_CH0038_bg.png",
+   "x": 0.0,
+   "y": 0.0,
+   "w": 48.032,
+   "h": 30.02
+  },
+  "backgrounds": [
+   {
+    "name": "DS_CH0038_bg",
+    "tex": "DS_CH0038_bg.png",
+    "x": 0.0,
+    "y": 0.0,
+    "w": 48.032,
+    "h": 30.02
+   }
+  ]
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "skin": "st_np0104",
+ "kind": "standing",
+ "character": "NP0104",
+ "store": "onestore",
+ "skel": "ST_NP0104.skel",
+ "atlas": "ST_NP0104.atlas",
+ "textures": [
+  "ST_NP0104.png"
+ ],
+ "animations": [
+  "00_idle_normal",
+  "01_anger",
+  "01_happy",
+  "01_sad",
+  "01_smile",
+  "style_1"
+ ],
+ "animationGroups": {
+  "": [
+   "style_1"
+  ],
+  "00": [
+   "00_idle_normal"
+  ],
+  "01": [
+   "01_anger",
+   "01_happy",
+   "01_sad",
+   "01_smile"
+  ]
+ },
+ "faceAnimations": [
+  "01_anger",
+  "01_happy",
+  "01_sad",
+  "01_smile"
+ ],
+ "skins": [
+  "default"
+ ],
+ "spineVersion": "4.2.37",
+ "skeletonHash": "-4e25a7c2-294d9a23",
+ "bounds": {
+  "x": -2995.9402,
+  "y": -94.5004,
+  "width": 4644.2617,
+  "height": 6714.6011
+ },
+ "slots": 58,
+ "bones": 548,
+ "events": [],
+ "attachments": [
+  "Nose",
+  "apron",
+  "arm_L_01",
+  "arm_L_02",
+  "arm_L_03",
+  "arm_L_04",
+  "arm_R_01",
+  "arm_R_02",
+  "arm_R_03",
+  "arm_R_04",
+  "armband",
+  "armband_back",
+  "body_01",
+  "body_02",
+  "ear",
+  "frill_1",
+  "frill_2",
+  "frill_L_01",
+  "frill_L_02",
+  "frill_R",
+  "frill_apron",
+  "frill_head",
+  "frill_skirt",
+  "glasses",
+  "glasses_shadow",
+  "gun_1",
+  "gun_2",
+  "hair_L",
+  "hair_R",
+  "hair_back",
+  "hair_back_L",
+  "hair_back_R",
+  "hand_L_01",
+  "hand_L_02",
+  "hand_R_01",
+  "hand_R_02",
+  "hand_R_03",
+  "hand_R_04",
+  "head_1_L",
+  "head_1_R",
+  "head_2_L",
+  "head_2_R",
+  "head_3",
+  "head_F_1",
+  "head_F_2",
+  "head_shadow",
+  "head_shadow_anger",
+  "leg_L",
+  "leg_R",
+  "mouth_anger",
+  "mouth_default",
+  "mouth_happy",
+  "mouth_sad",
+  "mouth_smile",
+  "neck",
+  "skirt"
+ ],
+ "censorship": {
+  "uncensored": [],
+  "censored": []
+ },
+ "actor": {
+  "idle": "00_idle_normal",
+  "boring": "00_idle_boring",
+  "active": null,
+  "faceBone": "face",
+  "mouthBone": "mouth",
+  "heightType": 1,
+  "actorType": 0,
+  "pivot": {
+   "x": -0.5132136344909668,
+   "y": 58.97822189331055
+  },
+  "phases": [],
+  "volumeProfiles": []
+ },
+ "sequences": [],
+ "touch": {
+  "boxes": [],
+  "jigglers": [],
+  "regions": [],
+  "orphanReactions": []
+ },
+ "world": {
+  "skeleton": {
+   "x": 0.0,
+   "y": 0.0,
+   "scale": 1.0,
+   "dataScale": 0.009999999776482582
+  },
+  "ppu": 26.459999084472656,
+  "cutsceneOffsets": [],
+  "camera": {
+   "verticalFov": null,
+   "nearClip": null,
+   "farClip": null
+  },
+  "postProcessors": [
+   {
+    "type": "RenderTextureStandingSilhouettePostProcessor",
+    "enabled": true,
+    "tint": {
+     "r": 0.0,
+     "g": 0.0,
+     "b": 0.0,
+     "a": 1.0
+    }
+   }
+  ]
+ }
+}
