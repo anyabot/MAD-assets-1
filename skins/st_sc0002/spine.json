@@ -269,7 +269,7 @@
   "censored": []
  },
  "actor": {
-  "idle": "00_idle_boring",
+  "idle": "00_idle_normal",
   "boring": "00_idle_boring",
   "active": "00_active",
   "faceBone": "face",
@@ -280,7 +280,13 @@
    "x": 0.033976275473833084,
    "y": 54.3577880859375
   },
-  "phases": [],
+  "phases": [
+   {
+    "idle": "00_idle_normal",
+    "boring": "00_idle_boring",
+    "active": "00_active"
+   }
+  ],
   "volumeProfiles": []
  },
  "sequences": [],

@@ -61,15 +61,15 @@
   "default"
  ],
  "spineVersion": "4.2.37",
- "skeletonHash": "1ef4d94f-3d27bff2",
+ "skeletonHash": "1418441278441266",
  "bounds": {
   "x": -1974.0143,
   "y": -1880.7527,
   "width": 3923.6138,
   "height": 3120.6641
  },
- "slots": 74,
- "bones": 162,
+ "slots": 76,
+ "bones": 165,
  "events": [],
  "attachments": [
   "arm_L",
@@ -88,6 +88,8 @@
   "arm_R_lower_wrist",
   "arm_R_upper",
   "bd_breath",
+  "bd_breath_L",
+  "bd_breath_R",
   "bd_ear",
   "bd_elisiaglass",
   "bd_head",
@@ -191,6 +193,8 @@
  "touch": {
   "boxes": [
    "bd_breath",
+   "bd_breath_L",
+   "bd_breath_R",
    "bd_ear",
    "bd_elisiaglass",
    "bd_head",
@@ -204,6 +208,20 @@
     "box": "bd_breath",
     "code": "breath",
     "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_breath_L",
+    "code": "breath",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_breath_R",
+    "code": "breath",
+    "side": "R",
     "state": null,
     "effect": "generic"
    },

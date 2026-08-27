@@ -219,7 +219,13 @@
    "x": 0.4685441851615906,
    "y": 41.121177673339844
   },
-  "phases": [],
+  "phases": [
+   {
+    "idle": "00_idle_normal",
+    "boring": "00_idle_boring",
+    "active": "00_active"
+   }
+  ],
   "volumeProfiles": []
  },
  "sequences": [],

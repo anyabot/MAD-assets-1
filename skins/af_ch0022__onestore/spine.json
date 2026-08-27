@@ -115,15 +115,15 @@
   "default"
  ],
  "spineVersion": "4.2.37",
- "skeletonHash": "-c37dab15e349c7",
+ "skeletonHash": "-77e7a254-cc67306",
  "bounds": {
   "x": -3950.6228,
-  "y": -3885.2256,
+  "y": -3918.3,
   "width": 8903.3994,
-  "height": 6481.4434
+  "height": 6514.5176
  },
- "slots": 128,
- "bones": 181,
+ "slots": 130,
+ "bones": 184,
  "events": [
   "cam_off",
   "cam_on",
@@ -173,6 +173,8 @@
   "bd_arm",
   "bd_body",
   "bd_breast",
+  "bd_breast_L",
+  "bd_breast_R",
   "bd_face",
   "breast_L_UNCEN",
   "breast_L_moisture",
@@ -363,6 +365,8 @@
    "bd_arm",
    "bd_body",
    "bd_breast",
+   "bd_breast_L",
+   "bd_breast_R",
    "bd_face"
   ],
   "jigglers": [],
@@ -385,6 +389,20 @@
     "box": "bd_breast",
     "code": "breast",
     "side": null,
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_breast_L",
+    "code": "breast",
+    "side": "L",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_breast_R",
+    "code": "breast",
+    "side": "R",
     "state": null,
     "effect": "generic"
    },
