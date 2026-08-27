@@ -53,7 +53,7 @@
   "default"
  ],
  "spineVersion": "4.2.37",
- "skeletonHash": "5068adae575f3eea",
+ "skeletonHash": "3dfba389-4475078e",
  "bounds": {
   "x": -4063.147,
   "y": -3980.4158,
@@ -61,7 +61,7 @@
   "height": 7478.3457
  },
  "slots": 109,
- "bones": 187,
+ "bones": 190,
  "events": [],
  "attachments": [
   "arm_L_lower",

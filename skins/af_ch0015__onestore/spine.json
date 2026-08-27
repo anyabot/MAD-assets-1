@@ -103,15 +103,15 @@
   "default"
  ],
  "spineVersion": "4.2.37",
- "skeletonHash": "1ade80b1-4638225c",
+ "skeletonHash": "3008f5ce-67e2eacc",
  "bounds": {
   "x": -1895.1663,
   "y": -1253.6538,
   "width": 3889.0002,
   "height": 2439.0005
  },
- "slots": 96,
- "bones": 150,
+ "slots": 99,
+ "bones": 158,
  "events": [
   "mouth_off",
   "mouth_on",
@@ -164,9 +164,10 @@
   "bd_body",
   "bd_breast",
   "bd_face",
-  "bd_hip",
-  "bd_leg_L",
+  "bd_hip_L",
+  "bd_hip_R",
   "bd_leg_R",
+  "bd_vagina",
   "blush",
   "body",
   "body_UNCEN",
@@ -294,9 +295,10 @@
    "bd_body",
    "bd_breast",
    "bd_face",
-   "bd_hip",
-   "bd_leg_L",
-   "bd_leg_R"
+   "bd_hip_L",
+   "bd_hip_R",
+   "bd_leg_R",
+   "bd_vagina"
   ],
   "jigglers": [],
   "regions": [
@@ -329,16 +331,16 @@
     "effect": "generic"
    },
    {
-    "box": "bd_hip",
+    "box": "bd_hip_L",
     "code": "hip",
-    "side": null,
+    "side": "L",
     "state": null,
     "effect": "generic"
    },
    {
-    "box": "bd_leg_L",
-    "code": "leg",
-    "side": "L",
+    "box": "bd_hip_R",
+    "code": "hip",
+    "side": "R",
     "state": null,
     "effect": "generic"
    },
@@ -346,6 +348,13 @@
     "box": "bd_leg_R",
     "code": "leg",
     "side": "R",
+    "state": null,
+    "effect": "generic"
+   },
+   {
+    "box": "bd_vagina",
+    "code": "vagina",
+    "side": null,
     "state": null,
     "effect": "generic"
    }
